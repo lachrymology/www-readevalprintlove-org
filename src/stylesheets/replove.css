@@ -1,0 +1,56 @@
+/* Additional Classes  --------------------------------------------- */
+
+.navigation-container {
+   background-color: rgba(213,207,180,0.4);
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.logo {
+   float:right; 
+}
+
+#title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#title a {
+    text-decoration: none;
+}
+
+#lisps {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+
+ul { 
+    width: 320px;
+    font-style: italic;
+    font-family:"ExoBlack";
+    font-size:24px;
+    margin-left: 64px;
+    list-style-image: url(../images/cons-cell.png);
+}
+
+ul li { }
+
+ul li p { 
+    padding:8px; 
+    font-style:normal; 
+    font-family:"ExoRegular";
+    font-size:13px; 
+    border-left: 1px solid #999; 
+}
+
+ul li p em { 
+    display:block;
+    font-family: "ExoBold";
+    font-size: 18px;
+}
+

@@ -1,0 +1,65 @@
+--- pipeline:erb,tags,blocks,head
+<!--
+Copyright (c) 2012 Fogus All rights reserved.  The
+use and distribution terms for this software are covered by the Eclipse
+Public License 1.0 (http://opensource.org/licenses/eclipse-1.0.php)
+which can be found in the file COPYING the root of this
+distribution.  By using this software in any fashion, you are
+agreeing to be bound by the terms of this license.  You must not
+remove this notice, or any other, from this software.
+-->
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/base.css}" />
+  <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/layout.css}" />
+  <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/skeleton.css}" />
+  <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/himera.css}" />
+  <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/replove.css}" />
+  <title>{title:}</title>
+</head>
+<body>
+  <div class="container">
+    
+    <h1 id="title"><a href="{relocatable: /}">(&lambda;ove (print (eval (read))))</a></h1>
+  
+    <div class="rule sixteen columns"></div>
+
+    <webgen:block name="header"/>
+
+    <webgen:block name="content"/>
+
+    <div class="rule sixteen columns"></div>
+
+    <div class="source">
+      <p><a href="http://github.com/fogus/www-readevalprintlove-org">Fork and contribute!<img src="{relocatable: images/github-icon.png}" /></a></p>
+    </div><!-- /source -->
+   
+    <div class="column footer-logo">
+      layout and styles &copy; 2012 <a href="http://www.fogus.me">Fogus</a> and <a href="http://thinkrelevance.com">Relevance</a><br/>
+      information available under the <a href=http://creativecommons.org/licenses/>Creative Commons License</a>
+    </div>
+    
+    <ul class="footer-links">
+      <li><a href="http://www.fogus.me">Fogus</a></li>
+      <li><a href="http://blog.fogus.me">Blog</a></li>
+      <li><a href="http://www.twitter.com/fogus">@fogus</a></li>
+      <li><a href="http://www.joyofclojure.com">Joy of Clojure</a></li>
+    </ul>
+
+  </div><!-- / container -->
+
+  <!-- tracking mojo -->
+  <script type="text/javascript"> 
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script> 
+  <script type="text/javascript"> 
+    try {
+      var pageTracker = _gat._getTracker("UA-921112-2");
+      pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+</body>
+</html>
+

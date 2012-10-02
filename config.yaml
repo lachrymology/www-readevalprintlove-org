@@ -1,0 +1,2 @@
+default_processing_pipeline:
+  Page: kramdown,tags,blocks
