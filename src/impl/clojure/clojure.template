@@ -3,16 +3,6 @@ title: clojure template
 template: ~
 --- 
 
-<!--
-Copyright (c) 2012 Fogus All rights reserved.  The
-use and distribution terms for this software are covered by the Eclipse
-Public License 1.0 (http://opensource.org/licenses/eclipse-1.0.php)
-which can be found in the file COPYING the root of this
-distribution.  By using this software in any fashion, you are
-agreeing to be bound by the terms of this license.  You must not
-remove this notice, or any other, from this software.
--->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,13 +12,12 @@ remove this notice, or any other, from this software.
     <link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/layout.css}" />
     <link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/skeleton.css}" />
     <link rel="stylesheet" href="clojure.css">
-    <title>REP<3.clj</title>
+    <title>{title:}</title>
   </head>
 
 <body>
   <header id="clojure-header" class="clojure-header clojure-header-bar">
     <a id="linkback" href="{relocatable: /}">(&lambda;ove (print (eval (read))))</a>
-
     <webgen:block name="links"/>
   </header>
 
@@ -37,5 +26,17 @@ remove this notice, or any other, from this software.
       <webgen:block name="content"/>
     </section>
   </div>
+
+  <!-- tracking mojo -->
+  <script type="text/javascript"> 
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script> 
+  <script type="text/javascript"> 
+    try {
+      var pageTracker = _gat._getTracker("UA-921112-2");
+      pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
 </body>
 </html>
