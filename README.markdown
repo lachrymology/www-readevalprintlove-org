@@ -28,7 +28,7 @@ Implementation-specific links to other sources.
 
 #### /impl/{name}/repl
 
-Implementation-specific online REPL.
+Implementation-specific online REPL(s).
 
 #### /impl/{name}/books
 
@@ -45,6 +45,18 @@ Implementation-specific comparisons to other implementations and languages.
 #### /impl/{name}/people
 
 People involved with a specific implementation.
+
+#### /impl/{name}/ides
+
+Implementation-specific information on IDEs.  These would fall into a few different categories, each starting with a sentence of the form:
+
+ * If you've only just heard of {name} and would like to try it quickly then see...
+
+ * If you've explored {name} and want to set up a useable IDE for hobby projects then see...
+
+ * If you're ready to work with {name} everyday and need an industrial-strength IDE then see...
+
+Depending on the complexity of the task, each of the sections above would live under `/impl/{name}/ides/{ide-name}` and have its own motivation, links and instructions.  However, if the ides page can be short and sweet with links to the *most accurate* setup instructions available at any given moment, then all the better.
 
 ## /roads
 
