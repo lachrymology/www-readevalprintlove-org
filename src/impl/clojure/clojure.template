@@ -29,11 +29,7 @@ remove this notice, or any other, from this software.
   <header id="clojure-header" class="clojure-header clojure-header-bar">
     <a id="linkback" href="{relocatable: /}">(&lambda;ove (print (eval (read))))</a>
 
-    <ul class="clojure-linkage">
-      <li class="clojure-main-links">
-	<a href="http://www.clojure.org" class="clojure-main-link">clojure.org</a>
-      </li>
-    </ul>
+    <webgen:block name="links"/>
   </header>
 
   <div id="the-void">

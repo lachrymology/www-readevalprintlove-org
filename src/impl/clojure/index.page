@@ -10,3 +10,6 @@ template: clojure.template
 
 Clojure information is in the works.
 
+--- name:links
+
+* [clojure.org](http://www.clojure.org)
