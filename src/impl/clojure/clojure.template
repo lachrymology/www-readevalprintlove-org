@@ -13,54 +13,33 @@ agreeing to be bound by the terms of this license.  You must not
 remove this notice, or any other, from this software.
 -->
 
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/base.css}" />
-  <link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/layout.css}" />
-  <link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/skeleton.css}" />
-  <link rel="stylesheet" type="text/css" href="clojure.css" />
-  <title>{title:}</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/base.css}" />
+    <link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/layout.css}" />
+    <link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/skeleton.css}" />
+    <link rel="stylesheet" href="clojure.css">
+    <title>REP<3.clj</title>
+  </head>
+
 <body>
-  <div class="container">
-    
-    <h1 id="title"><a href="{relocatable: /}">(&lambda;ove (print (eval (read))))</a></h1>
-  
-    <div class="rule sixteen columns"></div>
+  <header id="clojure-header" class="clojure-header clojure-header-bar">
+    <a id="linkback" href="{relocatable: /}">(&lambda;ove (print (eval (read))))</a>
 
-    <webgen:block name="content"/>
-
-    <div class="rule sixteen columns"></div>
-
-    <div class="source">
-      <p><a href="http://github.com/fogus/www-readevalprintlove-org">Fork and contribute!<img src="{relocatable: /images/github-icon.png}" /></a></p>
-    </div><!-- /source -->
-   
-    <div class="column footer-logo">
-      layout and styles &copy; 2012 <a href="http://www.fogus.me">Fogus</a> and <a href="http://thinkrelevance.com">Relevance</a><br/>
-      information available under the <a href=http://creativecommons.org/licenses/>Creative Commons License</a>
-    </div>
-    
-    <ul class="footer-links">
-      <li><a href="http://www.fogus.me">Fogus</a></li>
-      <li><a href="http://blog.fogus.me">Blog</a></li>
-      <li><a href="http://www.twitter.com/fogus">@fogus</a></li>
-      <li><a href="http://www.joyofclojure.com">Joy of Clojure</a></li>
+    <ul class="clojure-linkage">
+      <li class="clojure-main-links">
+	<a href="http://www.clojure.org" class="clojure-main-link">clojure.org</a>
+      </li>
     </ul>
+  </header>
 
-  </div><!-- / container -->
-
-  <!-- tracking mojo -->
-  <script type="text/javascript"> 
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-  </script> 
-  <script type="text/javascript"> 
-    try {
-      var pageTracker = _gat._getTracker("UA-921112-2");
-      pageTracker._trackPageview();
-    } catch(err) {}
-  </script>
+  <div id="the-void">
+    <section class="clojure-info">
+      <webgen:block name="content"/>
+    </section>
+  </div>
 </body>
 </html>
-
