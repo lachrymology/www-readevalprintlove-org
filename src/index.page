@@ -7,23 +7,32 @@ author_link: http://www.fogus.me
 author_twitter: @fogus
 ---
 
-[ReadEvalPrint&lambda;ove.org](http://www.readevalprintlove.org) is a site devoted to Lisp advocacy.  Herein you will find **curated** information, links, tutorials, interviews, videos, images and other sundreys related to various Lisp implementations, including, but not limited to:
+[ReadEvalPrint&lambda;ove.org](http://www.readevalprintlove.org) is a site devoted to Lisp advocacy.  Herein you will find **curated** information, links, tutorials, videos, images and other sundreys related to various Lisp implementations, including, but not limited to:
+
+{::options parse_block_html="true" /}
 
 <div class="navigation-container eight columns">
-  <ul><li><p><em>Code walks</em>blah blah</p></li></ul>
-  <ul><li><p><em>Recommended libraries</em>blah blah</p></li></ul>
-  <ul><li><p><em>Book reviews</em>blah blah</p></li></ul>
-</div>
-<div class="navigation-container eight columns"> 
-  <ul><li><p><em>Research materials</em>blah blah</p></li></ul>
-  <ul><li><p><em>Philosophies</em>blah blah</p></li></ul>
-  <ul><li><p><em>Stories</em>blah blah</p></li></ul>
+ * *Code reads* explorations, annotations and discussions of interesting code.
+ 
+ * *Library recommendations* categorized recommendations of popular and lesser-known libraries.
+ 
+ * *Reviews* book links and reviews.
 </div>
 
-Click the links above for your favorite Lisps to get started! (more to come) The information for this site is open-source and available under the [Create Commons License](http://creativecommons.org/licenses/), so please [fork and contribute](http://github.com/fogus/www-readevalprintlove-org)!
+<div class="navigation-container eight columns">
+ * *Research materials* links and discussion of related papers, articles and blog posts.
+ 
+ * *Philosophies* discussions about the specific language motivations.
+ 
+ * *Stories* interviews, "Road to..." surveys, etc.
+</div>
+
+Click the language links above for your favorite Lisps to get started! (more to come) The information for this site is open-source and available under the [Create Commons License](http://creativecommons.org/licenses/), so please [fork and contribute](http://github.com/fogus/www-readevalprintlove-org)!
+
+[View the REP<3 charter](./about.html) for more information.
 
 --- name:header pipeline:kramdown
 
-### (lisps [clojure](impl/clojure/){:.doc-link} [clojurescript](impl/clojurescript/){:.doc-link} [lithp](impl/lithp/){:.doc-link})
+### (in-progress [clojure](impl/clojure/){:.doc-link} [clojurescript](impl/clojurescript/){:.doc-link})
 {:#lisps}
 

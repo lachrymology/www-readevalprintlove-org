@@ -33,13 +33,12 @@ remove this notice, or any other, from this software.
 
     <div class="source">
       <p><a href="http://github.com/fogus/www-readevalprintlove-org">Fork and contribute!<img src="{relocatable: images/github-icon.png}" /></a></p>
+      <p><a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a></p>
     </div><!-- /source -->
    
     <div class="column footer-logo">
       layout and styles &copy; 2012 <a href="http://www.fogus.me">Fogus</a> and <a href="http://thinkrelevance.com">Relevance</a><br/>
       information available under the <a href=http://creativecommons.org/licenses/>Creative Commons License</a>
-    </div>
-    
     <ul class="footer-links">
       <li><a href="http://www.fogus.me">Fogus</a></li>
       <li><a href="http://blog.fogus.me">Blog</a></li>
@@ -47,6 +46,7 @@ remove this notice, or any other, from this software.
       <li><a href="http://www.joyofclojure.com">Joy of Clojure</a></li>
     </ul>
 
+    </div>
   </div><!-- / container -->
 
   <!-- tracking mojo -->

@@ -1,0 +1,27 @@
+---
+title: REP<3
+created: 2012.10.02
+last_modified: 2012.10.02
+author: Fogus
+author_link: http://www.fogus.me
+author_twitter: @fogus
+---
+
+While [REP<3](http://www.readevalprintlove.org) is not likely to fix the general problem of Lisp documentation on the web, its primary goal is to provide the primary source of the best that the web has to offer.
+
+How is this done?
+
+ * *[Creative Commons](http://creativecommons.org/licenses/)* open sourced information about various Lisp implementations.
+
+ * *Low barrier to contribute* [fork and contribute](http://github.com/fogus/www-readevalprintlove-org/). 
+
+* *Simple format* all information is stored in a light-weight [Markdown](http://daringfireball.net/projects/markdown/) variant.
+
+* *Curation* each implementation's documentation is uniquely designed. No one is interested in a vanilla documentation site. Each implementation should be uniquely represented.
+
+Enjoy. Share. Spread.
+
+--- name:header pipeline:kramdown
+
+### Let's be frank; Lisp documentation on the web is a mess. 
+
