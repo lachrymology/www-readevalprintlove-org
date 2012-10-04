@@ -10,6 +10,14 @@ template: clojure.template
 
 Clojure information is in the works.
 
+*To contribute*
+
+ 1. Fork the [REP<3 source repository](http://www.github.com/fogus/www-readevalprintlove-org)
+ 
+ 2. Make the relevant changes to the files under `src/impl/clojure`
+ 
+ 3. Send a pull request
+
 --- name:links
 
 * [clojure.org](http://www.clojure.org)
