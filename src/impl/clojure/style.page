@@ -1,0 +1,161 @@
+---
+title: REP<3.clj | style
+created: 2012.11.09
+last_modified: 2012.11.09
+author: Fogus
+author_link: http://www.fogus.me
+author_twitter: @fogus
+template: clojure.template
+---
+
+This section is intended to provide a basic Clojure style-guide.  Traditionally, style guides are cumbersome beasts, but Clojure's spartan design requires very little effort in explaining and therefore is light on its style requirements.  That being said, there are some observable idiomatic stylings.
+
+Using Space
+---------------
+
+Clojure's Lisp heritage provides a basis for much of the observed idiomatic Clojure style.  The matter of spacing | Using Space is directly inherited from Lisp in that expressions are indented using two spaces.  This is a departure from Java where the typical codebase will use four space indents.  However, Clojure's syntax is a massive departure from Java's and is not conducive to the same formatting standards.  That is, Clojure code is meant to be compact and concise, so extra space is superfluous.  
+
+Nested expressions should generally be separated by vertical space, although this is not necessary when the nesting is shallow.  The snippet `(if (even? 3) :even :odd)` is self-evident and requires no vertical spacing for understanding.  However, such simplistic expressions are not the norm and in general, vertical spacing is a boon.  For example, the first snippet below is simple, but the lack of vertical spacing unnecessarily complicates our intent:
+
+    (defn no-name1 [x y]
+      (cond x (cond y true :else false) :else false))
+
+Our revised snippet uses vertical spacing to make the intent clear:
+
+    (defn no-name2 [x y]
+      (cond 
+        x (cond 
+            y     true 
+            :else false) 
+        :else false))
+    
+The second function `no-name2` is much clearer in its intent in implementing the `and` macro.  While you may have no issues reading `no-name1`, in general expressions formatted similarly to `no-name2` will be easier to read.
+
+Naming
+----------
+
+Occasionally, spacing is less important when the function's intent is encoded in its name.  For example, `no-name1` listed above would likely have been easier to read if its name had instead been `my-and`, `and`, or `logical-and`.  Very often the name of a function, Var, Agent, etc... is equally as important as its presentation.  The key advice concerning naming is as follows: *make your names as descriptive as possible, without being overly verbose*.  That being said, names in Clojure generally:
+
+* Contain only lower-case letters[^erl]
+* Use hyphens to separate the words in the name
+* End in a question mark `?` if they are predicates
+* End in an exclamation mark `!` if they are not safe to use within transactions
+* Contain an arrow if they convert one thing to another (e.g. `map->prefs`)
+* Wear "earmuffs" if they are intended for re-binding (e.g. `*version*`)[^dynamuffs]
+* Protocol and Type names should be in CamelCase, without hyphens
+
+The obvious exceptions to the rules above are when generating Java code, which requires that Java naming conventions | Naming be observed (e.g. Camel case class names, methods are camel cased save for the first letter, etc...).
+
+[^erl]: Although Prolog and Erlang programmers might be forgiven.
+
+[^dynamuffs]: In Clojure 1.3 and beyond it's likely you'll need to also mark Vars meant to be thread-locally bound with metadata like `^{:dynamic true}`.  It's also likely that using *earmuffs* without such metadata will generate a compile-time warning.
+
+Name Shadowing
+------------------
+
+Name shadowing | Name Shadowing refers to the practice of naming a function or a Var the same name as an existing core or project-specific function or Var.  A quick example of how to shadow a name is as follows:
+
+    (defn join [sep seq]
+      (apply str (interpose sep seq)))
+    
+    (join "," [1 2 3]) 
+    ;=> "1,2,3"
+
+The function `join` manages to shadow a Clojure core function `seq` in that within its body the clojure core function of the same name will not be accessible without the explicit namespace qualification `clojure.core/seq`.  Fortunately for us, the shadowing is not especially confusing based on the context of its usage.  However, there may be circumstances when shadowing a binding within a lexical scope may lead to confusion.  To avoid capturing free Vars it is best to avoid shadowing names within the body of functions; however if the context that the name appears is unambiguous and the shadowed binding is never used within the body of said function, then it's probably OK.  Likewise, even in idiomatic Clojure code, shadowing is often used when coercing a boxed Var into a primitive type.  Name shadowing in your own programs is not necessarily poor form if done thoughtfully.
+
+Commenting
+--------------
+
+There are a number of commenting | Commenting forms available to the Clojure programmer, each with its own general usage patterns.
+
+### Line Commenting with ;
+
+The semi-colon comment denotes that everything following is ignored until a newline is found.  These comments are generally used for in-place commenting of implementation specific details, although in practice Clojure code contains very few of these types of comments.  Instead other strategies are employed which reduce their need.  It is often likely that you will only see semi-colon comments employed in the head of source files marking the software license terms or demarcating different sections of a source file (e.g. ;; GLOBALS START HERE).
+
+
+### Block Commenting with (comment ...)
+
+The `comment` macro takes any number of forms in its body and throws them all away.  These types of comments are general purpose but are often used within a source file to describe a library's functionality and provide usage examples.  It is this usage pattern that reigns supreme in idiomatic Clojure source rather than raw prose.  The reason for this is that most Clojure-aware editors will still syntax color the code within the `comment` block appropriately.  Finally, the comment block can be used to temporarily disable large blocks of expressions.
+
+
+### Ignoring Forms with #_
+
+The `#_` reader feature is used to mark a single clojure form as ignored.  It is not actually used for purposes of commentary, but can prove useful for debugging.  An example of its influence can be seen below:
+
+    (and true true #_false)
+    ;=> true
+   
+    (and true true #_(and true true false))
+    ;=> true
+
+By selectively using the `#_` reader macro, you can effectively test the effects of removing individual forms within an expression.  You would generally not retain the use of this reader macro in your code, but it can serve as a useful debugging tool.
+
+### Parenthesis
+
+Like Lisp, Clojure forms are closed with parenthesis | Parenthesis (or brackets depending on the form).  Closing parentheses at the same nesting depth are always closed together in a group.  Although a familiarity with ALGOL family languages like Java and C will compel a new Clojure programmer to close their forms according to instinct, Lisp languages reject that practice as it leads only to confusion.  The differences in style can be illustrated as a difference between this:
+
+        )
+      )
+    )
+
+... and the prefered and idiomatic:
+
+    )))
+
+It's a bad idea to view Clojure expressions as block-level elements like you might see in C-style languages, instead Clojure code consists of the composition of functions and should be formatted as such.
+
+And that's really all there is to Clojure styling.  Clojure has a simple syntax and therefore has a simple set of rules concerning how that syntax is presented.  That is, Clojure solutions will often be concise and elegant, and the idiomatic stylings are such that they do not encourage the addition of unnessecary size.  Before we move on, let's look briefly at Clojure's inline document strings and why you should use them heavily within your own code.
+
+Embrace Doc-strings
+-----------------------
+
+The most prominent use of metadata in Clojure is for attaching documentation strings | Doc-strings under the `:doc` index.  Attaching doc-strings to functions, macros, and multimethods provides the greatest return on investment.  That is, doc-strings provide readily available descriptions and usage statements.  Clojure provides a convenience macro `doc` that pretty prints a Var or special form's docstring  as well as other useful information such as the form of the expected arglists.  Using the `doc` macro goes hand in hand with using the Clojure REPL as a vehicle for experimentation as seen in section 3.4.  While the default information provided by `doc` is indeed useful, it is of the utmost importance to additionally provide a top-notch doc-string to accompany it.  
+
+Clojure style, and indeed functional programming style in general favors the composition of small, yet powerful, functions.  There are many circumstances where a function's form (McConnell 2004) will be the detail of its functionality.  However, there will be many functions, especially those particularly long or particularly clever that will require some additional documentation.  It is in these instances where docstrings provide an invaluable resource.  Take for instance the following function definition:
+
+    (defn best [ff xs] (reduce #(if (ff %1 %2) %1 %2) xs))
+
+Not only is the spacing of `best` confusing, but the intent of the function is not apparent given the ambiguous name.  Therefore, it is idiomatic Clojure style to attach a descriptive doc-string to the function to make its intent clear:
+
+    (defn best
+      "Returns the element of a seq xs that is judged best
+       by the fitness function ff.  Will fail on an empty seq.
+       
+       Usage: 
+       (best > '(1 2 3 4 5))
+       => 5
+      "
+      [ff xs] 
+      (reduce #(if (ff %1 %2) %1 %2) xs))
+    
+    (best > '(1 2 3 4 5))
+    ;=> 5
+
+Adding the additional docstring may at first seem superfluous, but Clojure also provides a convenience function named `find-doc` that allows users to search the current set of doc-strings for a certain pattern.  Adding a reasonably descriptive doc-string to your functions, macros, multimethods, and Vars will allow someone searching for `(find-doc "judged best")` to locate and properly use the function defined above; and this may be all the difference between someone using your library, or someone else's.
+
+Miscellaneous Stylings
+----------------------
+
+The following are touched on in the book, but can stand alone as a list:
+
+* Do not type hint unless performance is desired.  Type hints are not type declarations.
+* Do not use a macro if a function will suffice.
+* Do not employ naked :use (i.e. without `:only` or `:exclude`).
+* Throw compile-time exceptions from macros when you can.
+* Use `_` only for arguments or locals that will not be used in the enclosing block or function.
+* Avoid the use of type-based predicates unless absolutely needed.
+* Be lazy!
+* Use supporting functions to reduce the size of macros
+* Use keywords as the function to lookup map contents `(:entry my-map)`
+* Only extend a protocol to a type if you own either the type or the protocol
+* Do not extend a protocol to a type where it does not make sense `(extend-type String AlgebraFunctions ...)`
+
+There are likely circumstances where any of the guidelines given might be reasonably broken, and they should not be viewed as hard and fast rules.  Instead, anything said herein should be viewed in the spirit of consistency preservation.  That is, if we all adhere to these guidelines then the cognitive load imposed by inconsistencies can be avoided when viewing code written by others.
+
+--- name:links
+
+* [clojure.org](http://www.clojure.org)
+
+--- name:header
+
+Foo
