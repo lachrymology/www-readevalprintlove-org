@@ -1,10 +1,10 @@
 ---
-title: read eval print love
+title: (love (print (eval (read))))
 created: 2013.07.04
 last_modified: 2013.07.04
 author: Fogus
 author_link: http://www.fogus.me
 ---
 
-(love (print (eval (read))))
+(&lambda;ove (print (eval (read))))
 

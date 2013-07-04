@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>functional javascript</title>
+    <title></title>
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -14,13 +14,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="./css/skeleton-responsive.css">
     <link rel="stylesheet" href="./css/layout-responsive.css">
-
-    <script language="javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script language="javascript" src="./js/jquery.console.js"></script>
-    <script language="javascript" src="./js/underscore-min.js"></script>
-    <script language="javascript" src="./js/lemonad.js"></script>
-
-    <script language="javascript" src="./js/fun.js"></script>
   </head>
 
   <body class="home page page-id-9 page-template-default">
@@ -36,7 +29,7 @@
 	          </a>
 		</div>
 		<div class="social-icon">
-		  <a href="http://blog.fogus.me/tag/fun-js/feed/">
+		  <a href="http://blog.fogus.me/tag/readevalprintlove/feed/">
 		    <img src="./images/rss.png" alt="feed">
 	          </a>
 		</div>
@@ -49,21 +42,6 @@
 		<ul id="menu-main" class="sf-menu sf-js-enabled sf-shadow">
 		  <li id="menu-item-977" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-977">
 		    <a href="/">Home</a>
-		  </li>
-		  <li id="menu-item-977" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-977">
-		    <a href="play.html">REPL</a>
-		  </li>
-		  <li id="menu-item-977" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-977">
-		    <a href="http://www.amazon.com/Functional-JavaScript-Introducing-Programming-Underscore-js/dp/1449360726/?tag=fogus-20">Buy</a>
-		  </li>
-		  <li id="menu-item-977" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-977">
-		    <a href="http://www.jdoqocy.com/click-7084759-11260198?url=http://shop.oreilly.com/product/0636920028857.do">O'Reilly</a>
-		  </li>
-		  <li id="menu-item-1566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1566">
-		    <a href="http://oreilly.com/catalog/errata.csp?isbn=0636920028857">Errata</a>
-		  </li>
-		  <li id="menu-item-1566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1566">
-		    <a href="https://www.github.com/funjs/book-source">Source</a>
 		  </li>
 		</ul>
 	      </div>
@@ -79,23 +57,7 @@
 		<div class="flexslider">
 		  <ul class="slides">
 		    <li style="width: 100%; float: left; margin-right: -100%; display: list-item;">
-		      <img src="./images/cover.png" alt="">
-		      <div class="flex-caption gdl-slider-caption">
-			<div class="gdl-slider-title">Functional JavaScript</div>
-			<p><i>Introducing Functional Programming with Underscore.js</i></p>
-
-			<ol>
-			  <li>Introducing functional JavaScript</li>
-			  <li>First-class functions and applicative programming</li>
-			  <li>Variable scope and closures</li>
-			  <li>Higher-order functions</li>
-			  <li>Function building functions</li>
-			  <li>Recursion</li>
-			  <li>Purity, immutability and policies for change</li>
-			  <li>Flow-based programming</li>
-			  <li>Programming without class</li>
-			</ol>
-		      </div>
+		      <img src="./001/images/sakura_etegami.png" alt="">
 		    </li>
 		</ul>
 		</div>
@@ -103,14 +65,12 @@
 	    </div>
 	    <div class="gdl-page-float-left">
 	      <div class="gdl-page-item">
-			<div class="sixteen columns ">
-			  <div class="stunning-text-wrapper">
-			    <h1 class="stunning-text-title"><i>"This book could be a foundational text."</i></h1>
-		    	<div class="stunning-text-caption">-- Jeremy Ashkenas, creator of
-		      	<a href="http://underscorejs.org/">Underscore</a>,
-		      	<a href="http://backbonejs.org/">Backbone</a> and
-		      	<a href="http://coffeescript.org/">CoffeeScript</a>
-		      </div>
+		<div class="sixteen columns ">
+		  <div class="stunning-text-wrapper">
+		    <h1 class="stunning-text-title"><i>Title</i></h1>
+		    <div class="stunning-text-caption">
+		      <webgen:block name="content"/>
+		    </div>
 		    <div class="stunning-text-corner top"></div>
 		    <div class="stunning-text-corner bottom"></div>
 		    <div class="clear"></div>
