@@ -154,25 +154,16 @@
 	<div class="footer-widget-wrapper">
 	  <div class="one-third column mt0">
 	    <div class="custom-sidebar gdl-divider">
-              <a href="http://www.amazon.com/dp/1449360726/?tag=fogus-20">
-		<img src="./images/cover-small.jpg">
-	      </a>
-	      &nbsp;available now!
+	      &nbsp;
 	      <div class="clear"></div>
 	    </div>
 	  </div>
 	</div>
 	<div class="one-third column mt0">
 	  <div class="custom-sidebar gdl-divider">
-	    <h3 class="custom-sidebar-title footer-title-color gdl-title">Glossary</h3>
+	    <h3 class="custom-sidebar-title footer-title-color gdl-title">Entries</h3>
 	    <div class="tagcloud">
-	      <a href="#" class="glossary-link" style="font-size: 16.4pt;">closure</a>
-	      <a href="#" class="glossary-link" style="font-size: 8pt;">currying</a>
-	      <a href="#" class="glossary-link" style="font-size: 8pt;">first-class</a>
-	      <a href="#" class="glossary-link" style="font-size: 16.4pt;">laziness</a>
-	      <a href="#" class="glossary-link" style="font-size: 16.4pt;">partial</a>
-	      <a href="#" class="fake-link" onclick="location.reload()" style="font-size: 16.4pt;">recursion</a>
-	      <a href="#" class="glossary-link" style="font-size: 8pt;">scope</a>
+	      <a href="#" class="glossary-link" style="font-size: 8pt;">sakura etagami</a>
 	    </div>
 	  </div>
 	</div>
