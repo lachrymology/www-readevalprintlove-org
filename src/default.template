@@ -56,7 +56,7 @@
 		<div class="flexslider">
 		  <ul class="slides">
 		    <li style="width: 100%; float: left; margin-right: -100%; display: list-item;">
-		      <img src="{relocatable {etagami:}}" alt="">
+		      <img src="images/{etagami:}" alt="">
 		    </li>
 		</ul>
 		</div>
