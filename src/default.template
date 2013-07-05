@@ -56,7 +56,7 @@
 		<div class="flexslider">
 		  <ul class="slides">
 		    <li style="width: 100%; float: left; margin-right: -100%; display: list-item;">
-		      <img src="images/{etagami:}" alt="">
+		      <img src="{relocatable: images}/{etagami:}" alt="">
 		    </li>
 		</ul>
 		</div>
@@ -162,7 +162,7 @@
 	  <div class="custom-sidebar gdl-divider">
 	    <h3 class="custom-sidebar-title footer-title-color gdl-title">Entries</h3>
 	    <div class="tagcloud">
-	      <a href="{relocatable: 001/index.html}" class="glossary-link" style="font-size: 8pt;">sakura etagami</a>
+	      <a href="{relocatable: sakura/index.html}" class="glossary-link" style="font-size: 8pt;">sakura</a>
 	    </div>
 	  </div>
 	</div>
