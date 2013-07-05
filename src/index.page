@@ -1,10 +1,33 @@
 ---
-title: (love (print (eval (read))))
+title: Sakura
 created: 2013.07.04
 last_modified: 2013.07.04
 author: Fogus
 author_link: http://www.fogus.me
+etagami: 001/images/sakura_etagami.jpg
 ---
 
-(&lambda;ove (print (eval (read))))
+One day the macrolyte approach the master macrologist
+Pi Mu (Π無) and put forth a question:
+
+*Master, which Lisp is the greatest of all Lisps?*
+
+Pi Mu looked at the macrolyte and, in a low tone, told him 
+to meet him in the garden after the day's work was done and he would tell him the answer.
+
+At the end of the day the macrolyte did as Pi Mu instructed 
+and met him at the entry way to the humble garden.  He 
+immediately posed his question again:
+
+*Master, which Lisp is the greatest of all Lisps?*
+
+In a careful way Pi Mu then pointed at a patch of nearby sakura and said:
+
+*Look here at this patch of sakura.*
+
+*What a tall one that one.*
+ 
+*What a short one that one.*
+
+The student was at once enlightened.
 
