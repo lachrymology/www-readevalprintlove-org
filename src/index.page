@@ -10,7 +10,7 @@ etagami: sakura_etegami.jpg
 One day the macrolyte approach the master macrologist
 Pi Mu (Π無) and put forth a question:
 
-*Master, which Lisp is the greatest of all Lisps?*
+> Master, which Lisp is the greatest of all Lisps?
 
 Pi Mu looked at the macrolyte and, in a low tone, told him 
 to meet him in the garden after the day's work was done and he would tell him the answer.
@@ -19,33 +19,30 @@ At the end of the day the macrolyte did as Pi Mu instructed
 and met him at the entry way to the humble garden.  He 
 immediately posed his question again:
 
-*Master, which Lisp is the greatest of all Lisps?*
+> Master, which Lisp is the greatest of all Lisps?
 
-In a careful way Pi Mu then pointed at a patch of nearby sakura and said:
+In a careful manner Pi Mu then pointed at a patch of nearby sakura and said:
 
-*Look here at this patch of sakura.*
-
-*What a tall one that one.*
- 
-*What a short one that one.*
+> Look here at this patch of sakura.
+>
+> What a tall one that one.
+>
+> What a short one that one.
 
 The student was at once enlightened.
 
---- name:study 
+--- name:study-intro
 
-Every issue of Read-Eval-Print-λove
+Every issue of Read-Eval-Print-λove will offer recommendations for study.  The *study* section will usually contain an anchoring theme for the issue, but will sometimes be something else entirely.
 
-Manners of good practice which when adopted and practiced regularly will lead to a “common happiness”. “Common” in terms of common people everywhere who chooses to practice restraint in committing any bad actions (mentally, verbally and physically). “Happiness” is the result of their noble practice.
+--- name:practice-intro
 
---- name:practice
+I'll usually include a practice problem for solving, sometimes related to the overall theme and sometimes not.  These will not always be programming puzzles and the like.
 
-Methods used to develope a concentrated mind. There are three states of concentration.  Instill concentration in both calming down the mind and also training it to achieve mindfulness.
+--- name:realization-intro
 
---- name:realization
+From time to time I'll try to deconstruct a piece of code, blog post, book or presentation.
 
-Having a clear comprehension of things together with right understanding.  
-
---- name:play
+--- name:play-intro
 
 Play is fun and fun is good.
-

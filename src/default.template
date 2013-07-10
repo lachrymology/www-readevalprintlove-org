@@ -76,17 +76,17 @@
 		  </div>
 		</div>
 		<br class="clear">
-		<div class="one-fourth column ">
+		<div class="one-fourth column">
 		  <div class="column-service-wrapper">
 		    <div class="column-service-title-wrapper">
 		      <div class="column-service-image">
-			<img src="./images/icon.png">
+			<img src="{relocatable: images/bullet.png}">
 		      </div>
 		      <h2 class="column-service-title gdl-title">Study</h2>
 		      <div class="clear"></div>
 		    </div>
 		    <div class="column-service-content">
-		      <webgen:block name="study"/>
+		      <webgen:block name="study-intro"/>
 		    </div>
 		  </div>
 		</div>
@@ -95,13 +95,13 @@
 		  <div class="column-service-wrapper">
 		    <div class="column-service-title-wrapper">
 		      <div class="column-service-image">
-			<img src="./images/icon.png" alt="">
+			<img src="{relocatable: images/bullet.png}" alt="">
 		      </div>
 		      <h2 class="column-service-title gdl-title">Practice</h2>
 		      <div class="clear"></div>
 		    </div>
 		    <div class="column-service-content">
-		      <webgen:block name="practice"/>
+		      <webgen:block name="practice-intro"/>
 		    </div>
 		  </div>
 		</div>
@@ -110,13 +110,13 @@
 		  <div class="column-service-wrapper">
 		    <div class="column-service-title-wrapper">
 		      <div class="column-service-image">
-			<img src="./images/icon.png" alt="">
+			<img src="{relocatable: images/bullet.png}" alt="">
 		      </div>
 		      <h2 class="column-service-title gdl-title">Realization</h2>
 		      <div class="clear"></div>
 		    </div>
 		    <div class="column-service-content">
-		      <webgen:block name="realization"/>
+		      <webgen:block name="realization-intro"/>
 		    </div>
 		  </div>
 		</div>
@@ -125,13 +125,13 @@
 		  <div class="column-service-wrapper">
 		    <div class="column-service-title-wrapper">
 		      <div class="column-service-image">
-			<img src="./images/icon.png" alt="">
+			<img src="{relocatable: images/bullet.png}" alt="">
 		      </div>
 		      <h2 class="column-service-title gdl-title">Play</h2>
 		      <div class="clear"></div>
 		    </div>
 		    <div class="column-service-content">
-		      <webgen:block name="play"/>
+		      <webgen:block name="play-intro"/>
 		    </div>
 		  </div>
 		</div>
