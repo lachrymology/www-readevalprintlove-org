@@ -48,6 +48,7 @@
     .container .fifteen.columns                 { width: 880px; }
     .container .sixteen.columns                 { width: 940px; }
 
+    .container .one-fourth.column               { width: 220px; }
     .container .one-third.column                { width: 300px; }
     .container .two-thirds.column               { width: 620px; }
 	
@@ -69,7 +70,8 @@
     .container .fifteen.columns.wrapper                 { width: 900px; margin-right: 0px; margin-left: 0px; }
     .container .sixteen.columns.wrapper                 { width: 960px; margin-right: 0px; margin-left: 0px; }
 	
-    .container .one-third.column.wrapper               { width: 320px; margin-right: 0px; margin-left: 0px; }
+    .container .one-fourth.column.wrapper               { width: 240px; margin-right: 0px; margin-left: 0px; }
+    .container .one-third.column.wrapper                { width: 320px; margin-right: 0px; margin-left: 0px; }
     .container .two-thirds.column.wrapper               { width: 640px; margin-right: 0px; margin-left: 0px; }
 
 		/* One Sidebar */
@@ -79,6 +81,7 @@
 		.container .sidebar-included .gdl-page-item .eight.columns                   { width: 310px; }
 		.container .sidebar-included .gdl-page-item .twelve.columns                  { width: 475px; }
 		.container .sidebar-included .gdl-page-item .sixteen.columns                 { width: 640px; }
+		.container .sidebar-included .gdl-page-item .one-fourth.column               { width: 150px; }		
 		.container .sidebar-included .gdl-page-item .one-third.column                { width: 200px; }
 		.container .sidebar-included .gdl-page-item .two-thirds.column               { width: 420px; }
 			
@@ -86,6 +89,7 @@
 		.container .sidebar-included .gdl-page-item .eight.columns.wrapper                  { width: 330px; }
 		.container .sidebar-included .gdl-page-item .twelve.columns.wrapper                  { width: 495px; }
 		.container .sidebar-included .gdl-page-item .sixteen.columns.wrapper                 { width: 660px; }
+		.container .sidebar-included .gdl-page-item .one-third.column.wrapper                { width: 170px; }
 		.container .sidebar-included .gdl-page-item .one-third.column.wrapper                { width: 220px; }
 		.container .sidebar-included .gdl-page-item .two-thirds.column.wrapper               { width: 440px; }
 		
@@ -138,6 +142,7 @@
         .container .fifteen.columns                 { width: 700px; }
         .container .sixteen.columns                 { width: 748px; }
 
+        .container .one-fourth.column               { width: 177px; }
         .container .one-third.column                { width: 236px; }
         .container .two-thirds.column               { width: 492px; }	
 		
@@ -146,7 +151,8 @@
 			.container .eight.columns.wrapper                   { width: 384px; margin-right: 0px; margin-left: 0px; }
 			.container .twelve.columns.wrapper                  { width: 576px; margin-right: 0px; margin-left: 0px; }
 			.container .sixteen.columns.wrapper                 { width: 768px; margin-right: 0px; margin-left: 0px; }
-			.container .one-third.column.wrapper               { width: 256px; margin-right: 0px; margin-left: 0px; }
+			.container .one-fourth.column.wrapper               { width: 192px; margin-right: 0px; margin-left: 0px; }
+			.container .one-third.column.wrapper                { width: 256px; margin-right: 0px; margin-left: 0px; }
 			.container .two-thirds.column.wrapper               { width: 512px; margin-right: 0px; margin-left: 0px; }
 
 			/* One Sidebar */
@@ -156,6 +162,7 @@
 			.container .sidebar-included .gdl-page-item .eight.columns                   { width: 244px; }
 			.container .sidebar-included .gdl-page-item .twelve.columns                  { width: 376px; }
 			.container .sidebar-included .gdl-page-item .sixteen.columns                 { width: 508px; }
+			.container .sidebar-included .gdl-page-item .one-fourth.column               { width: 117px; }
 			.container .sidebar-included .gdl-page-item .one-third.column                { width: 156px; }
 			.container .sidebar-included .gdl-page-item .two-thirds.column               { width: 332px; }
 				
@@ -163,6 +170,7 @@
 			.container .sidebar-included .gdl-page-item .eight.columns.wrapper                  { width: 264px; }
 			.container .sidebar-included .gdl-page-item .twelve.columns.wrapper                  { width: 396px; }
 			.container .sidebar-included .gdl-page-item .sixteen.columns.wrapper                 { width: 528px; }
+			.container .sidebar-included .gdl-page-item .one-fourth.column.wrapper               { width: 137px; }
 			.container .sidebar-included .gdl-page-item .one-third.column.wrapper                { width: 176px; }
 			.container .sidebar-included .gdl-page-item .two-thirds.column.wrapper               { width: 352px; }		
 
@@ -215,6 +223,7 @@
         .container .fourteen.columns,
         .container .fifteen.columns,
         .container .sixteen.columns,
+        .container .one-fourth.column,
         .container .one-third.column,
         .container .two-thirds.column  { width: 280px; }
 		
@@ -223,6 +232,7 @@
 			.container .eight.columns.wrapper,               
 			.container .twelve.columns.wrapper,              
 			.container .sixteen.columns.wrapper,             
+			.container .one-fourth.column.wrapper,            
 			.container .one-third.column.wrapper,            
 			.container .two-thirds.column.wrapper { width: 300px; margin-right: 0px; margin-left: 0px; }
 
@@ -233,6 +243,7 @@
 			.container .sidebar-included .gdl-page-item .eight.columns,                   
 			.container .sidebar-included .gdl-page-item .twelve.columns,                  
 			.container .sidebar-included .gdl-page-item .sixteen.columns,                 
+			.container .sidebar-included .gdl-page-item .one-fourth.column,              
 			.container .sidebar-included .gdl-page-item .one-third.column,                
 			.container .sidebar-included .gdl-page-item .two-thirds.column { width: 280px; }
 				
@@ -240,6 +251,7 @@
 			.container .sidebar-included .gdl-page-item .eight.columns.wrapper ,                
 			.container .sidebar-included .gdl-page-item .twelve.columns.wrapper ,               
 			.container .sidebar-included .gdl-page-item .sixteen.columns.wrapper ,              
+			.container .sidebar-included .gdl-page-item .one-fourth.column.wrapper ,             			
 			.container .sidebar-included .gdl-page-item .one-third.column.wrapper ,             
 			.container .sidebar-included .gdl-page-item .two-thirds.column.wrapper  { width: 300px; }			
 
@@ -291,6 +303,7 @@
         .container .fourteen.columns,
         .container .fifteen.columns,
         .container .sixteen.columns,
+        .container .one-fourth.column,        
         .container .one-third.column,
         .container .two-thirds.column { width: 400px; }
 
@@ -299,6 +312,7 @@
 			.container .eight.columns.wrapper,               
 			.container .twelve.columns.wrapper,              
 			.container .sixteen.columns.wrapper,             
+			.container .one-fourth.column.wrapper,            
 			.container .one-third.column.wrapper,            
 			.container .two-thirds.column.wrapper { width: 420px; margin-right: 0px; margin-left: 0px; }
 
@@ -309,6 +323,7 @@
 			.container .sidebar-included .gdl-page-item .eight.columns,                   
 			.container .sidebar-included .gdl-page-item .twelve.columns,                  
 			.container .sidebar-included .gdl-page-item .sixteen.columns,                 
+			.container .sidebar-included .gdl-page-item .one-fourth.column,                
 			.container .sidebar-included .gdl-page-item .one-third.column,                
 			.container .sidebar-included .gdl-page-item .two-thirds.column { width: 400px; }
 				
@@ -316,6 +331,7 @@
 			.container .sidebar-included .gdl-page-item .eight.columns.wrapper ,                
 			.container .sidebar-included .gdl-page-item .twelve.columns.wrapper ,               
 			.container .sidebar-included .gdl-page-item .sixteen.columns.wrapper ,              
+			.container .sidebar-included .gdl-page-item .one-fourth.column.wrapper ,             
 			.container .sidebar-included .gdl-page-item .one-third.column.wrapper ,             
 			.container .sidebar-included .gdl-page-item .two-thirds.column.wrapper  { width: 420px; }				
 
@@ -325,12 +341,14 @@
 			.container .both-sidebar-included .gdl-page-item .four.columns,
 			.container .both-sidebar-included .gdl-page-item .eight.columns, 
 			.container .both-sidebar-included .gdl-page-item .one-third.column,
+			.container .both-sidebar-included .gdl-page-item .one-fourth.column,			
 			.container .both-sidebar-included .gdl-page-item .twelve.columns,
 			.container .both-sidebar-included .gdl-page-item .sixteen.columns,
 			.container .both-sidebar-included .gdl-page-item .two-thirds.column  { width: 400px; }
 			
 			.container .both-sidebar-included .gdl-page-item .four.columns.wrapper,
 			.container .both-sidebar-included .gdl-page-item .eight.columns.wrapper,    
+			.container .both-sidebar-included .gdl-page-item .one-fourth.column.wrapper,
 			.container .both-sidebar-included .gdl-page-item .one-third.column.wrapper,
 			.container .both-sidebar-included .gdl-page-item .twelve.columns.wrapper,   	
 			.container .both-sidebar-included .gdl-page-item .sixteen.columns.wrapper, 
