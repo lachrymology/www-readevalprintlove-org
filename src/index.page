@@ -35,14 +35,49 @@ The student was at once enlightened.
 
 Every issue of Read-Eval-Print-λove will offer recommendations for study.  The *study* section will usually contain an anchoring theme for the issue, but will sometimes be something else entirely.
 
+--- name:study
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
 --- name:practice-intro
 
 I'll usually include a practice problem for solving, sometimes related to the overall theme and sometimes not.  These will not always be programming puzzles and the like.
+
+--- name:practice
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
 
 --- name:realization-intro
 
 From time to time I'll try to deconstruct a piece of code, blog post, book or presentation.
 
+--- name:realization
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
 --- name:play-intro
 
 Play is fun and fun is good.
+
+--- name:play
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+--- name:author-info
+
+<a href="http://www.fogus.me">Michael Fogus</a>—a core contributor to
+<a href="http://www.clojure.org">Clojure</a>
+and <a href="http://www.clojurescript.net">ClojureScript</a>.  Creator of the
+<a href="http://functionaljs.org">Lemonad</a>, <a href="https://www.github.com/fogus/friebyrd">
+Friebyrd</a> and <a href="https://www.github.com/fogus/codd">
+Codd</a> JavaScript libraries.
+
+A fervent blogger at  <a href="http://blog.fogus.me">Send More Paramedics</a> and also
+co-author of the book, <i><a href="http://www.joyofclojure.com">The Joy of Clojure</a></i>.
+
+--- name:author-online
+
+  * <http://www.fogus.me>
+  * me -at- fogus -dot- me
+

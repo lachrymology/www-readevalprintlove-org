@@ -10,7 +10,7 @@ etagami: sakura_etegami.jpg
 One day the macrolyte approach the master macrologist
 Pi Mu (Π無) and put forth a question:
 
-*Master, which Lisp is the greatest of all Lisps?*
+> Master, which Lisp is the greatest of all Lisps?
 
 Pi Mu looked at the macrolyte and, in a low tone, told him 
 to meet him in the garden after the day's work was done and he would tell him the answer.
@@ -19,33 +19,65 @@ At the end of the day the macrolyte did as Pi Mu instructed
 and met him at the entry way to the humble garden.  He 
 immediately posed his question again:
 
-*Master, which Lisp is the greatest of all Lisps?*
+> Master, which Lisp is the greatest of all Lisps?
 
-In a careful way Pi Mu then pointed at a patch of nearby sakura and said:
+In a careful manner Pi Mu then pointed at a patch of nearby sakura and said:
 
-*Look here at this patch of sakura.*
-
-*What a tall one that one.*
- 
-*What a short one that one.*
+> Look here at this patch of sakura.
+>
+> What a tall one that one.
+>
+> What a short one that one.
 
 The student was at once enlightened.
 
 --- name:study-intro
 
-Every issue of Read-Eval-Print-λove
+Every issue of Read-Eval-Print-λove will offer recommendations for study.  The *study* section will usually contain an anchoring theme for the issue, but will sometimes be something else entirely.
 
-Manners of good practice which when adopted and practiced regularly will lead to a “common happiness”. “Common” in terms of common people everywhere who chooses to practice restraint in committing any bad actions (mentally, verbally and physically). “Happiness” is the result of their noble practice.
+--- name:study
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 --- name:practice-intro
 
-Methods used to develope a concentrated mind. There are three states of concentration.  Instill concentration in both calming down the mind and also training it to achieve mindfulness.
+I'll usually include a practice problem for solving, sometimes related to the overall theme and sometimes not.  These will not always be programming puzzles and the like.
+
+--- name:practice
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
 
 --- name:realization-intro
 
-Having a clear comprehension of things together with right understanding.  
+From time to time I'll try to deconstruct a piece of code, blog post, book or presentation.
+
+--- name:realization
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 --- name:play-intro
 
 Play is fun and fun is good.
+
+--- name:play
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+--- name:author-info
+
+<a href="http://www.fogus.me">Michael Fogus</a>—a core contributor to
+<a href="http://www.clojure.org">Clojure</a>
+and <a href="http://www.clojurescript.net">ClojureScript</a>.  Creator of the
+<a href="http://functionaljs.org">Lemonad</a>, <a href="https://www.github.com/fogus/friebyrd">
+Friebyrd</a> and <a href="https://www.github.com/fogus/codd">
+Codd</a> JavaScript libraries.
+
+A fervent blogger at  <a href="http://blog.fogus.me">Send More Paramedics</a> and also
+co-author of the book, <i><a href="http://www.joyofclojure.com">The Joy of Clojure</a></i>.
+
+--- name:author-online
+
+  * <http://www.fogus.me>
+  * me -at- fogus -dot- me
 

@@ -82,7 +82,7 @@
 		      <div class="column-service-image">
 			<img src="{relocatable: images/bullet.png}">
 		      </div>
-		      <h2 class="column-service-title gdl-title">Study</h2>
+		      <h2 class="column-service-title gdl-title">On Study</h2>
 		      <div class="clear"></div>
 		    </div>
 		    <div class="column-service-content">
@@ -97,7 +97,7 @@
 		      <div class="column-service-image">
 			<img src="{relocatable: images/bullet.png}" alt="">
 		      </div>
-		      <h2 class="column-service-title gdl-title">Practice</h2>
+		      <h2 class="column-service-title gdl-title">On Practice</h2>
 		      <div class="clear"></div>
 		    </div>
 		    <div class="column-service-content">
@@ -112,7 +112,7 @@
 		      <div class="column-service-image">
 			<img src="{relocatable: images/bullet.png}" alt="">
 		      </div>
-		      <h2 class="column-service-title gdl-title">Realization</h2>
+		      <h2 class="column-service-title gdl-title">On Realization</h2>
 		      <div class="clear"></div>
 		    </div>
 		    <div class="column-service-content">
@@ -127,7 +127,7 @@
 		      <div class="column-service-image">
 			<img src="{relocatable: images/bullet.png}" alt="">
 		      </div>
-		      <h2 class="column-service-title gdl-title">Play</h2>
+		      <h2 class="column-service-title gdl-title">On Play</h2>
 		      <div class="clear"></div>
 		    </div>
 		    <div class="column-service-content">
@@ -137,12 +137,66 @@
 		</div>
 
 		<div style="clear:both; height:0px"></div>
-	      </div>
-	    </div>
-	  </div>
-	  <br class="clear">
-	</div>
+
+		<div class="sixteen columns">
+		  <div class="stunning-text-wrapper">
+		    <h1 class="stunning-text-title"><i>Study</i></h1>
+		    <div class="stunning-text-caption">
+		      <webgen:block name="study"/>
+		    </div>
+		    <div class="stunning-text-corner top"></div>
+		    <div class="stunning-text-corner bottom"></div>
+		    <div class="clear"></div>
+		  </div>
+        </div>
+
+		<div style="clear:both; height:0px"></div>
+
+		<div class="sixteen columns">
+		  <div class="stunning-text-wrapper">
+		    <h1 class="stunning-text-title"><i>Practice</i></h1>
+		    <div class="stunning-text-caption">
+		      <webgen:block name="practice"/>
+		    </div>
+		    <div class="stunning-text-corner top"></div>
+		    <div class="stunning-text-corner bottom"></div>
+		    <div class="clear"></div>
+		  </div>
+        </div>
+
+		<div style="clear:both; height:0px"></div>
+
+		<div class="sixteen columns">
+		  <div class="stunning-text-wrapper">
+		    <h1 class="stunning-text-title"><i>Realization</i></h1>
+		    <div class="stunning-text-caption">
+		      <webgen:block name="realization"/>
+		    </div>
+		    <div class="stunning-text-corner top"></div>
+		    <div class="stunning-text-corner bottom"></div>
+		    <div class="clear"></div>
+		  </div>
+        </div>
+
+		<div style="clear:both; height:0px"></div>
+
+		<div class="sixteen columns">
+		  <div class="stunning-text-wrapper">
+		    <h1 class="stunning-text-title"><i>Play</i></h1>
+		    <div class="stunning-text-caption">
+		      <webgen:block name="play"/>
+		    </div>
+		    <div class="stunning-text-corner top"></div>
+		    <div class="stunning-text-corner bottom"></div>
+		    <div class="clear"></div>
+		  </div>
+        </div>
+
       </div>
+    </div>
+    <br class="clear">
+  </div>
+</div>
     </div>
     <div class="footer-wrapper">
       <div class="container">
@@ -167,36 +221,13 @@
 	    <h3 class="custom-sidebar-title footer-title-color gdl-title">About the author</h3>
 	    <div class="textwidget">
 	      <div style="clear:both; height:6px"></div>
-	      <p><a href="http://www.fogus.me">Michael Fogus</a>—a core contributor to
-		<a href="http://www.clojure.org">Clojure</a>
-		and <a href="http://www.clojurescript.net">ClojureScript</a>.  Creator of the
-		<a href="http://functionaljs.org">Lemonad</a>, <a href="https://www.github.com/fogus/friebyrd">
-		Friebyrd</a> and <a href="https://www.github.com/fogus/codd">
-		Codd</a> JavaScript libraries.
-
-		A fervent blogger at  <a href="http://blog.fogus.me">Send More Paramedics</a> and also
-		co-author of the book, <i><a href="http://www.joyofclojure.com">The Joy of
-		Clojure</a></i>.
-	      </p>
-	    </div>
+	        <webgen:block name="author-info"/>
+  	      </div>
 	  </div>
 	  <div class="custom-sidebar gdl-divider">
 	    <h3 class="custom-sidebar-title footer-title-color gdl-title">Author online</h3>
 	    <div class="textwidget">
-	      <div style="float: left; clear: both; margin-top: 5px; margin-bottom: 7px; ">
-		<div style="float: left; margin: 4px 7px 0 0;">
-		  <img src="./images/house.png">
-		</div>
-		<div style="float: left;"><a href="http://www.fogus.me">http://fogus.me</a></div>
-	      </div>
-	      <div style="float: left; clear: both; margin-bottom: 7px; ">
-		<div style="float: left; margin: 5px 7px 0 0;">
-		  <img src="./images/email.png">
-		</div>
-		<div style="float: left;">
-		  <a href="#">me -at- fogus -dot- me</a>
-		</div>
-	      </div>
+          <webgen:block name="author-online"/>
 	    </div>
 	  </div>
 	</div>
