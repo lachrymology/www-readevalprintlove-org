@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{relocatable: css/skeleton-responsive.css}">
     <link rel="stylesheet" href="{relocatable: css/layout-responsive.css}">
 
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=clj"></script>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=lisp"></script>
   </head>
 
   <body class="home page page-id-9 page-template-default">

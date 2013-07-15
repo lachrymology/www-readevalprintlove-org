@@ -88,6 +88,7 @@ newLISP raised some ire at one point or another because of its design choices, s
 					       
     (pi 30) 
 	;=> "3.1415926535897932384626433832795028841968"
+{: .prettyprint .lang-scm}
 
 Why you would call out to the UNIX `bc` command of course.  Why would you need your programming language to provide that type of calculation[^mul] when there are more appropriate tools for doing so?  I suppose the fundamental philosophy of newLISP is to not necessarily provide everything, but to make everything possible.  newLISP facilitates possibility by treating the use of `eval` as a first-class approach and utterly idiomatic.
 
