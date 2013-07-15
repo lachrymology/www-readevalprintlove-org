@@ -65,9 +65,9 @@
 	    <div class="gdl-page-float-left">
 	      <div class="gdl-page-item">
 		<div class="sixteen columns ">
-		  <div class="stunning-text-wrapper">
-		    <h1 class="stunning-text-title"><i>{title:}</i></h1>
-		    <div class="stunning-text-caption">
+		  <div class="section-wrapper">
+		    <h1 class="section-title"><i>{title:}</i></h1>
+		    <div class="section-content">
 		      <webgen:block name="content"/>
 		    </div>
 		    <div class="stunning-text-corner top"></div>
@@ -139,9 +139,9 @@
 		<div style="clear:both; height:0px"></div>
 
 		<div class="sixteen columns">
-		  <div class="stunning-text-wrapper">
-		    <h1 class="stunning-text-title"><i>Study</i></h1>
-		    <div class="stunning-text-caption">
+		  <div class="section-wrapper">
+		    <h1 class="section-title"><i>Study</i></h1>
+		    <div class="section-content">
 		      <webgen:block name="study"/>
 		    </div>
 		    <div class="stunning-text-corner top"></div>
@@ -153,9 +153,9 @@
 		<div style="clear:both; height:0px"></div>
 
 		<div class="sixteen columns">
-		  <div class="stunning-text-wrapper">
-		    <h1 class="stunning-text-title"><i>Practice</i></h1>
-		    <div class="stunning-text-caption">
+		  <div class="section-wrapper">
+		    <h1 class="section-title"><i>Practice</i></h1>
+		    <div class="section-content">
 		      <webgen:block name="practice"/>
 		    </div>
 		    <div class="stunning-text-corner top"></div>
@@ -167,9 +167,9 @@
 		<div style="clear:both; height:0px"></div>
 
 		<div class="sixteen columns">
-		  <div class="stunning-text-wrapper">
-		    <h1 class="stunning-text-title"><i>Realization</i></h1>
-		    <div class="stunning-text-caption">
+		  <div class="section-wrapper">
+		    <h1 class="section-title"><i>Realization</i></h1>
+		    <div class="section-content">
 		      <webgen:block name="realization"/>
 		    </div>
 		    <div class="stunning-text-corner top"></div>
@@ -181,9 +181,9 @@
 		<div style="clear:both; height:0px"></div>
 
 		<div class="sixteen columns">
-		  <div class="stunning-text-wrapper">
-		    <h1 class="stunning-text-title"><i>Play</i></h1>
-		    <div class="stunning-text-caption">
+		  <div class="section-wrapper">
+		    <h1 class="section-title"><i>Play</i></h1>
+		    <div class="section-content">
 		      <webgen:block name="play"/>
 		    </div>
 		    <div class="stunning-text-corner top"></div>

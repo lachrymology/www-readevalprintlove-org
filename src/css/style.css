@@ -9,7 +9,7 @@ Author URI: http://goodlayers.com
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -609,13 +609,18 @@ div.column-service-content{ margin: 0px;  }
 h2.column-service-title{ font-size: 16px; line-height: 32px; overflow: hidden; margin-bottom: 0px; font-weight: bold; }
 div.column-service-title-wrapper{ margin-bottom: 8px; }
 
-/* Stunning Text */
-div.stunning-text-wrapper{ padding: 15px; }
-h1.stunning-text-title{
+/* Sections */
+div.section-wrapper{ padding: 15px; }
+h1.section-title{
 	margin: 1px 20px 0px 10px; line-height: 30px; font-size: 20px; font-weight: bold; float: left;  }
-div.stunning-text-caption{ font-size: 16px; margin-top: 9px; margin-bottom: 9px; }
+div.section-content{ font-size: 16px; margin-top: 9px; margin-bottom: 9px; }
 div.stunning-text-button-wrapper{ text-align: center; }
 a.stunning-text-button{ padding: 7px 14px; font-size: 13px; font-weight: bold; float: right; margin-left: 20px; }
+
+.section-content a {
+  text-decoration: none;
+  border-bottom: 2px dotted #d0d0d0;
+}
 
 /* Testimonial */
 h3.testimonial-header-title{ font-size: 18px; margin-bottom: 25px; margin-left: 10px; }
@@ -977,20 +982,22 @@ body{
 h1, h2, h3, h4, h5, h6, .gdl-title{
 	font-family: default -;
 }
-.stunning-text-wrapper{
+.section-wrapper{
 	background-color: #ffffff !important;
 	border-bottom: 1px solid #dddddd;
 }
-h1.stunning-text-title{
+h1.section-title{
 	font-family: default -;
 	color: #333333;
 }
 .gdl-slider-title{
 	font-family: Merriweather;
 }
-.stunning-text-caption {
+.section-content {
 	color: #0d0d0d;
 }
+
+
 
 /* Font Color
    ================================= */
@@ -1279,69 +1286,7 @@ span.wpcf7-form-control-wrap textarea{
 
 	-webkit-box-shadow: #ececec 0px 1px 4px inset, #f8f8f8 -5px -5px 0px 0px, #f8f8f8 5px 5px 0px 0px, #f8f8f8 5px 0px 0px 0px, #f8f8f8 0px 5px 0px 0px, #f8f8f8 5px -5px 0px 0px, #f8f8f8 -5px 5px 0px 0px;
 	box-shadow: #ececec 0px 1px 4px inset, #f8f8f8 -5px -5px 0px 0px, #f8f8f8 5px 5px 0px 0px, #f8f8f8 5px 0px 0px 0px, #f8f8f8 0px 5px 0px 0px, #f8f8f8 5px -5px 0px 0px, #f8f8f8 -5px 5px 0px 0px;
-}
 
-/* Icon Type (dark/light)
-   ================================= */
-
-div.single-port-next-nav a,
-div.single-port-prev-nav a{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/port-nav.png') no-repeat; }
-
-div.single-thumbnail-author,
-div.archive-wrapper .blog-item .blog-thumbnail-author,
-div.blog-item-holder .blog-item2 .blog-thumbnail-author{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/author.png') no-repeat 0px 1px; }
-
-div.single-thumbnail-date,
-div.custom-sidebar .recent-post-widget-date,
-div.archive-wrapper .blog-item .blog-thumbnail-date,
-div.blog-item-holder .blog-item1 .blog-thumbnail-date,
-div.blog-item-holder .blog-item2 .blog-thumbnail-date{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/calendar.png') no-repeat 0px 1px; }
-
-div.single-thumbnail-comment,
-div.archive-wrapper .blog-item .blog-thumbnail-comment,
-div.blog-item-holder .blog-item1 .blog-thumbnail-comment,
-div.blog-item-holder .blog-item2 .blog-thumbnail-comment,
-div.custom-sidebar .recent-post-widget-comment-num{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/comment.png') no-repeat 0px 1px; }
-
-div.single-thumbnail-tag,
-div.archive-wrapper .blog-item .blog-thumbnail-tag,
-div.blog-item-holder .blog-item2 .blog-thumbnail-tag{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/tag.png') no-repeat; }
-
-div.custom-sidebar #searchsubmit,
-div.search-wrapper input[type="submit"]{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/find-17px.png') no-repeat center; }
-
-div.single-port-visit-website{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/link-small.png') no-repeat 0px 2px; }
-
-span.accordion-head-image.active,
-span.toggle-box-head-image.active{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/minus-24px.png'); }
-span.accordion-head-image,
-span.toggle-box-head-image{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/plus-24px.png'); }
-
-div.jcarousellite-nav .prev,
-div.jcarousellite-nav .next{ background-image: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/navigation-20px.png'); }
-
-div.testimonial-icon{ background: url("http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/quotes-18px.png"); }
-
-div.custom-sidebar ul li{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/arrow4.png') no-repeat 0px 14px; }
-
-div.gdl-portfolio-title-wrapper,
-div.gdl-page-title-wrapper{
-	background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/title-bg.png');
-}
-
-div.stunning-text-wrapper{
-	background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/stunning-text-bg.png');
-}
-div.stunning-text-corner{
-	background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/stunning-text-corner.png');
-}
-
-/* Footer Icon Type
-   ================================= */
-div.footer-wrapper div.custom-sidebar ul li { background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/light/arrow4.png') no-repeat 0px 14px; }
-div.footer-wrapper div.custom-sidebar #searchsubmit { background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/light/find-17px.png') no-repeat center; }
-div.footer-wrapper div.custom-sidebar .recent-post-widget-comment-num { background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/light/comment.png') no-repeat 0px 1px; }
-div.footer-wrapper div.custom-sidebar .recent-post-widget-date{ background: url('http://themes.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/light/calendar.png') no-repeat 0px 1px; }
 
 /* Elements Shadow
    ================================= */
