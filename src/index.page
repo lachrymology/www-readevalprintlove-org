@@ -98,9 +98,13 @@ I agonized over including Paul Graham's Arc in the category of Fluchtpunkt Lisp,
 
 #### [Pico Lisp](http://picolisp.com/5000/-2.html)
 
-I first came across Pico Lisp when reading the paper ["Pico Lisp: A Radical Approach to Application Development"](http://software-lab.de/radical.pdf) by  Alexander Burger and was instantly fascinated.  The primary goal is to provide an idealized Lisp interpreter that runs as fast as possible.  To accomplish this goal Pico Lisp limits its feature set and optimizes the code path along the dimensions of its features.  The core types provided by Pico Lisp are numbers, symbols, and lists.  Given the paucity of these types Pico Lisp has the advantage of always taking the most direct interpretation path and thus avoiding any unnecessary checks and abstractions that a more corpulent Lisp might require.  For example, Pico Lisp's `quote` function is defined in such a way that it returns all of its arguments unevaluated allowing the operation of `quote` to optimize into only a return of its `cdr` rather than the `car` of its `cdr`.  Simple no?
+I first came across Pico Lisp when reading the paper ["Pico Lisp: A Radical Approach to Application Development"](http://software-lab.de/radical.pdf) by  Alexander Burger and was instantly fascinated.  The primary goal is to provide an idealized Lisp interpreter that runs as fast as possible.  To accomplish this goal Pico Lisp limits its feature set and optimizes the code path along the dimensions of its features.  The core types provided by Pico Lisp are numbers, symbols, and lists.  Given the paucity of these types Pico Lisp has the advantage of always taking the most direct interpretation path and thus avoiding any unnecessary checks and abstractions that a more corpulent Lisp might require.  For example, Pico Lisp's `quote` function is defined in such a way that it [returns all of its arguments unevaluated](http://picolisp.com/5000/!wiki?ArticleQuote) allowing the operation of `quote` to optimize into only a return of its `cdr` rather than the `car` of its `cdr`.  Simple no?
 
-Pico Lisp is, in my opinion, the most interesting entry in a family of *really really small Lisps* that also includes [Nanolisp](http://www-fourier.ujf-grenoble.fr/~sergerar/Nanolisp/) and [femtoLisp](http://code.google.com/p/femtolisp/), although I would hesitate to include these latter two in the Fluchtpunkt category.
+Another interesting aspect of Pico Lisp is that is does not contain strings, arrays, vectors nor anything but exactly numbers, symbols and lists as first-class data types.  It's drive for simplicity [^simpl] in its offerings and possibilities as well as its implementation.  Aside from the practical matter that offering more data types means that there would be more type-specific functions, on the implementation side an increase in the  [number of tag-bits](http://picolisp.com/5000/!wiki?ArrayAbstinence) is a limiting factor as well.  If you need a string, use a symbol.  If you need an array, use a list.  And so on...
+
+Pico Lisp is, in my opinion, the most interesting entry in a family of *really really small Lisps* that also includes [Nanolisp](http://www-fourier.ujf-grenoble.fr/~sergerar/Nanolisp/) and [femtoLisp](http://code.google.com/p/femtolisp/), although I would hesitate to include these latter two in the Fluchtpunkt category. Even with its minimal data types, minimal scoping rules (dynamically scoped) and its favoring of `eval` over macros, Pico Lisp still offers some interesting features like coroutines, first-class environments, and integrated database and Prolog (Pilog).
+
+[^simpl]: The word "simple" is used in a loose way throughout this issue and is not tied to its dual "entangled" nor "complected."
 
 #### [Wasp Lisp](http://sites.google.com/site/waspvm/)
 
@@ -159,14 +163,10 @@ Play is fun and fun is good.
 --- name:author-info
 
 [Michael Fogus](http://www.fogus.me) — a core contributor to
-<a href="http://www.clojure.org">Clojure</a>
-and <a href="http://www.clojurescript.net">ClojureScript</a>.  Creator of the
-<a href="http://functionaljs.org">Lemonad</a>, <a href="https://www.github.com/fogus/friebyrd">
-Friebyrd</a> and <a href="https://www.github.com/fogus/codd">
-Codd</a> JavaScript libraries.
+[Clojure](http://www.clojure.org) and [ClojureScript](http://www.clojurescript.net).  Creator of [programming source codes](https://www.github.com/fogus).
 
-A fervent blogger at  <a href="http://blog.fogus.me">Send More Paramedics</a> and also
-co-author of the book, <i><a href="http://www.joyofclojure.com">The Joy of Clojure</a></i>.
+A fervent blogger at [Send More Paramedics](http://blog.fogus.me) and also
+co-author of the book, *[The Joy of Clojure](http://www.joyofclojure.com)* and author of *[Functional JavaScript](http://www.functionaljavascript.com)*.
 
 --- name:author-online
 
