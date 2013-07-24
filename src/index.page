@@ -186,6 +186,8 @@ From time to time I'll try to deconstruct a piece of code, blog post, book or pr
 
 The differences between Common Lisp and Scheme are numerous and deep, but one difference that truly stands out to newcomers is summarized as their respective Lisp-2 and Lisp-1[^lispn] natures.
 
+https://groups.google.com/d/msg/comp.lang.lisp/Bj8Hx6mZEYI/nI_tNT3sk58J
+
 TODO
 
 	(defun sum (term a next b)
