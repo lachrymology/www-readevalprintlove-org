@@ -215,6 +215,23 @@ TODO
           ,@body)))
 {: .prettyprint .lang-lisp}
 
+TODO
+
+	(defun sum (term a next b)
+	  (with-functions (term next)
+	    (if (> a b)
+	      0
+	      (+ (term a)
+	         (sum term (next a) next b)))))
+{: .prettyprint .lang-lisp}
+
+TODO
+
+    (sum (lambda (a) (* a a)) 5 #'1+ 10)
+{: .prettyprint .lang-lisp}
+
+TODO
+
 --- name:play-intro
 
 Play is fun and fun is good.  This section will usually contain odd-ball functions, macros or even code examples in non-Lisp languages.  All bets are off here.
