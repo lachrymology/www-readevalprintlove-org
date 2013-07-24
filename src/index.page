@@ -184,7 +184,16 @@ From time to time I'll try to deconstruct a piece of code, blog post, book or pr
 
 --- name:realization
 
- * GLOS?
+The differences between Common Lisp and Scheme are numerous and deep, but one difference that truly stands out to newcomers is summarized as their respective Lisp-2 and Lisp-1[^lispn] natures.
+
+    (defmacro with-functions (functions &body body)
+	  `(macrolet ,(mapcar (lambda (function)
+                    `(,function (&rest args)
+                       `(funcall ,',function ,@args)))
+                    functions)
+        (locally (declare (function ,@functions))
+          ,@body)))
+{: .prettyprint .lang-lisp}
 
 --- name:play-intro
 
