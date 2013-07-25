@@ -184,17 +184,19 @@ From time to time I'll try to deconstruct a piece of code, blog post, book or pr
 
 --- name:realization
 
+## A difference in skeletal structures
+
 The differences between Common Lisp and Scheme are numerous and deep, but one difference that truly stands out to newcomers is summarized as their respective Lisp-2 and Lisp-1[^lispn] natures.
 
 https://groups.google.com/d/msg/comp.lang.lisp/Bj8Hx6mZEYI/nI_tNT3sk58J
 
 TODO
 
-	(defun sum (term a next b)
-	  (if (> a b)
-	    0
-	    (+ (term a)
-		   (sum term (next a) next b)))))
+    (defun sum (term a next b)
+      (if (> a b)
+        0
+        (+ (term a)
+           (sum term (next a) next b)))))
 {: .prettyprint .lang-scheme}
 
 TODO
@@ -233,6 +235,13 @@ TODO
 {: .prettyprint .lang-lisp}
 
 TODO
+
+## A difference in personality
+
+ * Protocol based programming
+   - Scheme (naming)
+   - Clojure
+   - Common Lisp
 
 --- name:play-intro
 
