@@ -1,0 +1,12 @@
+BACKGROUND: Some reading along may not be aware that poor Clyde the
+elephant is the canonical exemplar used in AI literature for discussing
+problems in inheritance.  The standard example is that all mammals have 
+4 legs, and then to go sawing off one of Clyde's appendages and to start
+to ask whether Clyde is therefore not an elephant.  This usually leads
+to a discussion about whether negative inheritance is possible, and 
+whether Clyde really has 4 legs but that one of them is of type 
+MISSING-LEG (which helps a lot, actually, since you can then still discuss
+the color of his missing leg, etc.), or whether he has just three legs
+(which brings into question the notion that what it means to be "of a class"
+is to have all the properties of the class, and to ask the implicit question:
+"is there anything you can then depend on if exceptions are allowed?").
