@@ -85,7 +85,7 @@ newLISP raised some ire at one point or another because of its design choices, s
 
     (define (pi n)
       (replace "\\" 
-	    (join                                        <1>
+	(join                                        <1>
           (exec                                      <2>
             (format 
               "echo 'scale=%d; 4 * a(1)' | bc -ql"   <3>
@@ -93,7 +93,7 @@ newLISP raised some ire at one point or another because of its design choices, s
         ""))
     
     (pi 30) 
-	;=> "3.1415926535897932384626433832795028841968"
+    ;;=> "3.1415926535897932384626433832795028841968"
 {: .prettyprint .lang-lisp}
 
   1. Wait for the result from a child process
@@ -123,11 +123,11 @@ Another interesting aspect of PicoLisp is that is does not contain strings, arra
 
 Here is an example of some PicoLisp to scape a web-page:
 
-	(load "@lib/http.l")
-	 
-	(client "replove.herokuapp.com" 80 "sakura/index.html" <1>
-	  (when (from "Pi Mu ")                                <2>
-	    (pack (trim (till "and")))))                       <3>
+    (load "@lib/http.l")
+    	 
+    (client "replove.herokuapp.com" 80 "sakura/index.html" <1>
+      (when (from "Pi Mu ")                                <2>
+        (pack (trim (till "and")))))                       <3>
     
     ;;=> (Π無)
 {: .prettyprint .lang-lisp}
