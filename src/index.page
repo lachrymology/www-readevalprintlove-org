@@ -1,7 +1,7 @@
 ---
 title: Sakura
 created: 2013.07.04
-last_modified: 2013.07.04
+last_modified: 2013.07.31
 author: Fogus
 author_link: http://www.fogus.me
 etagami: sakura_etegami.jpg
@@ -69,7 +69,9 @@ Below is a list of Fluchtpunkt Lisp implementations that I've found, and some di
 
 #### [T](http://mumble.net/~jar/tproject/)
 
-T is my favorite Scheme variant and the inspiration for many a Lisp thereafter.  I've poured over [Stephen Slade's T book](http://www.amazon.com/o/asin/013881905X?tag=fogus-20) numerous times, finding something mind blowing each time.  The primary driving force behind T was to prove that a Scheme could be made to run extremely fast, and fast it ran.  T's compiler technology was the motivation for numerous dissertations, and remains influential in many ways, even if some of its compilation techniques have fallen out of fashion.  The names attached to T development is an all-star roster of Lisp including, but not limited to: [Kent Pitman](http://www.nhplace.com/kent/), [Jonathan Rees](http://mumble.net/~jar/), [Richard Kelsey](http://mumble.net/~kelsey/), [Paul Hudak](http://www.cs.yale.edu/people/hudak.html) and [Olin Shivers](http://www.ccs.neu.edu/home/shivers/).
+T is my favorite Scheme variant and the inspiration for many a Lisp thereafter.  I've poured over [Stephen Slade's T book](http://www.amazon.com/o/asin/013881905X?tag=fogus-20) numerous times, finding something mind blowing each time.  The primary driving force behind T was to prove that a Scheme could be made to run extremely fast, and fast it ran.  T's compiler technology was the motivation for numerous dissertations, and remains influential in many ways, even if some of its compilation techniques have fallen out of fashion.  The names attached to T development is an all-star roster of langdev[^langdev] including, but not limited to: [Kent Pitman](http://www.nhplace.com/kent/), [Jonathan Rees](http://mumble.net/~jar/), [Richard Kelsey](http://mumble.net/~kelsey/), [Paul Hudak](http://www.cs.yale.edu/people/hudak.html) and [Olin Shivers](http://www.ccs.neu.edu/home/shivers/).
+
+[^langdev]: Programming language development.
 
 #### [Shen](http://shenlanguage.org/)
 
