@@ -89,7 +89,19 @@ As a programming language, LISP is characterized by the following ideas:
 	 
  15. LISP statements as a command language in an on-line environment.
 
-Under these conditions[^define], what current languages are Lisps?  Which fall short?  Some related reading
+Under these conditions[^define], what current languages are Lisps?  Which fall short?  Some related reading:
+
+ * [What Made Lisp Different][diff] by Paul Graham
+ * [Why Ruby is an Acceptable Lisp][lirb] by Eric Kidd
+ * [Lisp is Not an Acceptable Lisp][lispnot] by Steve Yegge
+ * [Why Scala is an Acceptable Lisp][lisca] by Will Fitzgerald
+ * [Why is Scheme Not a Lisp?][scmnot]
+
+[diff]: http://www.paulgraham.com/diff.html
+[lirb]: http://www.randomhacks.net/articles/2005/12/03/why-ruby-is-an-acceptable-lisp
+[lispnot]: http://steve-yegge.blogspot.com/2006/04/lisp-is-not-acceptable-lisp.html
+[lisca]: http://willwhim.wpengine.com/2013/02/22/why-scala-is-an-acceptable-lisp
+[scmnot]: https://groups.google.com/forum/#!topic/comp.lang.lisp/Bj8Hx6mZEYI%5B1-25-false%5D
 
 [^define]: Just because MacCarthy invented Lisp doesn't mean that he has the right to define what constitutes a Lisp.  This seems like a counter-intuitive thing to say, but the fact is that Lisp has grown far beyond anything that McCarthy imagined at the time that he defined the first `eval`.  Vendors, users, programmers, standards committees and implementors have a say also.
 
@@ -235,10 +247,7 @@ I'll usually include a practice problem for solving, sometimes related to the ov
  * Some other abstraction for Simoni's object tags?
  * Tearing things further? (anything)
  * Multitude of lisps
- * German school
- * Simoni
  * Dipert Lisp
-
 
 --- name:realization-intro
 
