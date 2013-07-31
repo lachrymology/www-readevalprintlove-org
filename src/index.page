@@ -331,6 +331,17 @@ Play is fun and fun is good.  This section will usually contain odd-ball functio
  * [Macintosh Common Lisp](ftp://ftp.informatimago.com/pub/lisp/macintosh-common-lisp-reference.pdf) (PDF)
  * Apple training wheels
 
+## Matters of perspective
+
+ Term                  | Common Lisp                                             | Scheme                     |
+ -------------------------------------------------------------------------------------------------------------|
+ Hygiene               | Occassionally taking a shower                           | Macros, the Scheme way     |
+ proper tail calls     | Function with no bugs having calls in the tail position | no definition              |
+ Proper Tail Calls     | no definition                                           | Tail-calls, the Scheme way |
+ Higher-order thinking | Remembering to use `#'`                                 | Remembering to use Scheme  |
+ 
+ 
+
 ## Links
 
 TODO
