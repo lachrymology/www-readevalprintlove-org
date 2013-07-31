@@ -39,6 +39,64 @@ Every issue of Read-Eval-Print-λove will offer recommendations for study.  The 
 
 --- name:study
 
+# What's a Lisp?
+
+In 1980 John McCarthy wrote a paper entitled *[LISP - Notes on its past and future](http://www-formal.stanford.edu/jmc/lisp20th.html)* for Stanford's Lisp conference that year.  With in the paper he listed fifteen points that he claimed characterized LISP:
+
+As a programming language, LISP is characterized by the following ideas:
+
+  1. Computing with symbolic expressions rather than numbers.
+  
+  2. Representation of symbolic expressions and other information by
+     list structure in computer memory.
+	 
+  3. Representation of information on paper, from keyboards and in
+     other external media mostly by multi-level lists and sometimes by
+     S-expressions. It has been important that any kind of data can be 
+     represented by a single general type.
+	 
+  4. A small set of selector and constructor operations expressed as
+     functions, i.e. car, cdr and cons.
+	 
+  5. Composition of functions as a tool for forming more complex
+     functions.
+	
+  6. The use of conditional expressions for getting branching into
+     function definitions.
+
+  7. The recursive use of conditional expressions as a sufficient tool
+     for building computable functions.
+
+  8. The use of λ-expressions for naming functions.
+
+  9. The storage of information on the property lists of atoms.
+  
+ 10. The representation of LISP programs as LISP data that can be
+     manipulated by object programs. This has prevented the separation
+	 between system programmers and application programmers. Everyone
+	 can ``improve'' his LISP, and many of these ``improvements'' have
+	 developed into improvements to the language.
+
+ 11. The conditional expression interpretation of Boolean connectives.
+ 
+ 12. The LISP function eval that serves both as a formal definition of
+     the language and as an interpreter.
+	 
+ 13. Garbage collection as the means of erasure.
+ 
+ 14. Minimal requirements for declarations so that LISP statements can
+     be executed in an on-line environment without preliminaries.
+	 
+ 15. LISP statements as a command language in an on-line environment.
+
+Under these conditions[^define], what current languages are Lisps?  Which fall short?  Some related reading
+
+[^define]: Just because MacCarthy invented Lisp doesn't mean that he has the right to define what constitutes a Lisp.  This seems like a counter-intuitive thing to say, but the fact is that Lisp has grown far beyond anything that McCarthy imagined at the time that he defined the first `eval`.  Vendors, users, programmers, standards committees and implementors have a say also.
+
+# The German School of Lisp
+
+*This is an expanded and updated version of an [earlier article on Fluchtpunkt Lisps from 2011](http://blog.fogus.me/2011/05/03/the-german-school-of-lisp-2/).*
+
 The German school of Lisp is described by [Kazimir Majorinc](http://kazimirmajorinc.blogspot.com/2011/04/one-picolisp-snippet.html) as a Spartan movement[^mini] in Lisp implementation.  But let me be clear, the Lisps in question are not toys like the one's littering the Lisp landscape (including my own: [Lithp](http://github.com/fogus/lithp) and [μLithp](http://github.com/fogus/ulithp)). Likewise, these Lisps are not libraries nor are they full-blown development ecosystems.  
 
 Let's explore these distinctions for just a moment to clarify my meaning.
@@ -252,56 +310,6 @@ TODO
 Play is fun and fun is good.  This section will usually contain odd-ball functions, macros or even code examples in non-Lisp languages.  All bets are off here.
 
 --- name:play
-
-## Ur
-
-In 1980 John McCarthy wrote a paper entitled *[LISP - Notes on its past and future](http://www-formal.stanford.edu/jmc/lisp20th.html)* for Stanford's Lisp conference that year.  With in the paper he listed fifteen points that he claimed characterized LISP:
-
-As a programming language, LISP is characterized by the following ideas:
-
-  1. Computing with symbolic expressions rather than numbers.
-  
-  2. Representation of symbolic expressions and other information by
-     list structure in computer memory.
-	 
-  3. Representation of information on paper, from keyboards and in
-     other external media mostly by multi-level lists and sometimes by
-     S-expressions. It has been important that any kind of data can be 
-     represented by a single general type.
-	 
-  4. A small set of selector and constructor operations expressed as
-     functions, i.e. car, cdr and cons.
-	 
-  5. Composition of functions as a tool for forming more complex
-     functions.
-	
-  6. The use of conditional expressions for getting branching into
-     function definitions.
-
-  7. The recursive use of conditional expressions as a sufficient tool
-     for building computable functions.
-
-  8. The use of λ-expressions for naming functions.
-
-  9. The storage of information on the property lists of atoms.
-  
- 10. The representation of LISP programs as LISP data that can be
-     manipulated by object programs. This has prevented the separation
-	 between system programmers and application programmers. Everyone
-	 can ``improve'' his LISP, and many of these ``improvements'' have
-	 developed into improvements to the language.
-
- 11. The conditional expression interpretation of Boolean connectives.
- 
- 12. The LISP function eval that serves both as a formal definition of
-     the language and as an interpreter.
-	 
- 13. Garbage collection as the means of erasure.
- 
- 14. Minimal requirements for declarations so that LISP statements can
-     be executed in an on-line environment without preliminaries.
-	 
- 15. LISP statements as a command language in an on-line environment.
 
 ## Music
 
