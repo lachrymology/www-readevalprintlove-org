@@ -336,8 +336,9 @@ Play is fun and fun is good.  This section will usually contain odd-ball functio
  Term                  | Common Lisp                                             | Scheme                     |
  -------------------------------------------------------------------------------------------------------------|
  Hygiene[^flet]        | Always use earmuffs and never use `FLET` nor `LABELS`   | Macros, the Scheme way     |
- proper tail calls     | Function with no bugs having calls in the tail position | no definition              |
- Proper Tail Calls     | no definition                                           | Tail-calls, the Scheme way |
+ proper tail-calls     | Function with no bugs having calls in the tail position | *no definition*            |
+ Proper Tail-Calls     | *no definition*                                         | Tail-calls, the Scheme way |
+ Tail-call elimination | A vendor-specific feature                               | Porting SCM code to CL     |
  Higher-order thinking | Remembering to use `#'`                                 | Remembering to use Scheme  |
  Lisp-1                | The index entry before Lisp-2                           | The definition of beauty   |
  Lisp-2                | The index entry before Lisp-3                           | The definition of ugly     |
