@@ -1,3 +1,12 @@
+---
+title: TBD
+created: 2013.07.04
+last_modified: 2013.07.31
+author: Fogus
+author_link: http://www.fogus.me
+etagami: todo.jpg
+---
+
 BACKGROUND: Some reading along may not be aware that poor Clyde the
 elephant is the canonical exemplar used in AI literature for discussing
 problems in inheritance.  The standard example is that all mammals have 
@@ -10,3 +19,49 @@ the color of his missing leg, etc.), or whether he has just three legs
 (which brings into question the notion that what it means to be "of a class"
 is to have all the properties of the class, and to ask the implicit question:
 "is there anything you can then depend on if exceptions are allowed?").
+
+--- name:study-intro
+
+Every issue of Read-Eval-Print-λove will offer recommendations for study.  The *study* section will usually contain an anchoring theme for the issue, but will sometimes be something else entirely.
+
+--- name:study
+
+TODO
+
+--- name:practice-intro
+
+I'll usually include a practice problem for solving, sometimes related to the overall theme and sometimes not.  These will not always be programming puzzles and the like.
+
+--- name:practice
+
+TODO
+
+--- name:realization-intro
+
+From time to time I'll try to deconstruct a piece of code, blog post, book or presentation.
+
+--- name:realization
+
+TODO
+
+--- name:play-intro
+
+Play is fun and fun is good.  This section will usually contain odd-ball functions, macros or even code examples in non-Lisp languages.  All bets are off here.
+
+--- name:play
+
+TODO
+
+--- name:author-info
+
+[Michael Fogus](http://www.fogus.me) — a core contributor to
+[Clojure](http://www.clojure.org) and [ClojureScript](http://www.clojurescript.net).  Creator of [programming source codes](https://www.github.com/fogus).
+
+A fervent blogger at [Send More Paramedics](http://blog.fogus.me) and also
+co-author of the book, *[The Joy of Clojure](http://www.joyofclojure.com)* and author of *[Functional JavaScript](http://www.functionaljavascript.com)*.
+
+--- name:author-online
+
+  * <http://www.fogus.me>
+  * me -at- fogus -dot- me
+
