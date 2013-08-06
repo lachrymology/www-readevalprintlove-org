@@ -330,8 +330,22 @@ Play is fun and fun is good.  This section will usually contain odd-ball functio
 
 ## Coloring corner
 
- * [Macintosh Common Lisp](ftp://ftp.informatimago.com/pub/lisp/macintosh-common-lisp-reference.pdf) (PDF)
- * Apple training wheels
+Apple Computers once had a brilliant marketing campaign famously known as "Wheels for the mind."  The image that went along with that phrase was as follows:
+
+![wheels](/images/wftm.jpg "Wheels for the mind")
+
+This particular ad was run in 1981 and referred directly to the [Apple II line of computers](http://apple2history.org/).  However, even after that ad ran its course the company designed and developed amazing technologies that truly did serve as "wheels for the mind," including, but not limited to:
+
+ * [Macintosh Common Lisp](ftp://ftp.informatimago.com/pub/lisp/macintosh-common-lisp-reference.pdf) (PDF) - a standards-compliant version of Common Lisp with powerful IDE
+
+ * [Hypercard](http://www.loper-os.org/?p=568) - an early hypermedia development language and platform.
+
+ * [Dylan](http://en.wikipedia.org/wiki/History_of_the_Dylan_programming_language) - a Lisp-like object-oriented programming language originally designed as a [Newton](http://oldcomputers.net/apple-newton.html) development system.
+
+Each of these languages were ahead of their time and offered first-class development environments for the Apple line of computers and systems.  However, over time Apple eventually phased out each in every one of these languages and indeed the very computers that they targetted.  The early versions of the Apple II computers were software and hardware extensible and for many a young man or woman were truly "wheels for the mind."  Sadly, had Apple simply phased out old hardware and development systems in favor of something new and more powerful then few would have shed a tear.  Instead, Apple moved away from the very notion of "wheels of the mind" in favor of building systems for consumers.  Objective C, the iPad and iCloud are no longer "wheels for the mind" but are instead simply "training wheels for the mind."
+
+![twheels](/images/twftm.jpg "Training wheels for the mind")
+
 
 ## Matters of perspective
 
