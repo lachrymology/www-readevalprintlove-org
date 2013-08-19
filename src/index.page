@@ -163,7 +163,7 @@ newLISP raised some ire at one point or another because of its design choices, s
 
     (define (pi n)
       (replace "\\" 
-	(join                                        <1>
+        (join                                        <1>
           (exec                                      <2>
             (format 
               "echo 'scale=%d; 4 * a(1)' | bc -ql"   <3>
