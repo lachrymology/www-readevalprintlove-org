@@ -44,6 +44,8 @@ From time to time I'll try to deconstruct a piece of code, blog post, book or pr
 
 TODO
 
+  * A language that cannot host its own evolution is not worth using
+
 --- name:play-intro
 
 Play is fun and fun is good.  This section will usually contain odd-ball functions, macros or even code examples in non-Lisp languages.  All bets are off here.
