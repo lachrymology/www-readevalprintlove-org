@@ -259,7 +259,7 @@ From time to time I'll try to deconstruct a piece of code, blog post, book or pr
 
 --- name:realization
 
-## A difference in skeletal structures
+## A language that doesn't let you affect the way it thinks is not worth growing
 
 The differences between Common Lisp and Scheme are numerous and deep, but one difference that truly stands out to newcomers is summarized as their respective Lisp-2 and Lisp-1[^lispn] natures.
 
