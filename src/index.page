@@ -106,7 +106,7 @@ If you walk through this list focusing your lens of reason through various progr
 
 Just because MacCarthy invented Lisp doesn't mean that he has the right to define what constitutes a Lisp.  This seems like a counter-intuitive thing to say, but the fact is that Lisp has grown far beyond anything that McCarthy imagined at the time that he defined the first `eval`.  Vendors, users, programmers, standards committees and implementors have a say also.
 
-Pinning down what constitutes a Lisp based on McCarthy's list above is a tough task that is due to exclude many participants with partial (and often legitimate) claims to the feature set above.  On the other hand, simply taking an implementation like Common Lisp as the model of "Lispiness" is unsatisfactory as well since doing so exludes historical Lisps that fed into the development of the Common Lisp standard.  So maybe the right answer to "what is Lisp?" is simply -- who cares?  For the purposes of this zine[^zine] I'll freely mix discussion and examples for various Lisp implementations both current and historical and not worry too much about identity issues.
+Pinning down what constitutes a Lisp based on McCarthy's list above is a tough task that is due to exclude many participants with partial (and often legitimate) claims to the feature set above.  On the other hand, simply taking an implementation like Common Lisp as the model of "Lispiness" is unsatisfactory as well since doing so exludes historical Lisps that fed into the development of the Common Lisp standard.  So maybe the right answer to "what is Lisp?" is simply -- who cares?[^idont]  For the purposes of this zine[^zine] I'll freely mix discussion and examples for various Lisp implementations both current and historical and not worry too much about identity issues.
 
 I hope you'll enjoy.
 
@@ -121,6 +121,8 @@ I hope you'll enjoy.
 [scmnot]: https://groups.google.com/forum/#!topic/comp.lang.lisp/Bj8Hx6mZEYI%5B1-25-false%5D
 
 [^clway]: To the extent that Common Lisp has or supports a "way."
+
+[^idont]: I don't really care, but I'll still try to use the terms "Lisp family" vs. "Little language" to make a distinction.
 
 [^zine]: The tern "zine" is a bit archaic, but I've not thought of a better term for what this is.  I was considering "xine", but that's not really satisfactory either.
 
