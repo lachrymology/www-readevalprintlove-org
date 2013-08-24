@@ -92,7 +92,7 @@ As a programming language, LISP is characterized by the following ideas:
  15. LISP statements as a command language in an on-line environment
      (think REPL).
 
-Under these conditions[^define], what current languages are Lisps?  Which fall short?  Some related reading:
+Under these conditions, what current languages are Lisps?  Which fall short?  Some related reading:
 
  * [What Made Lisp Different][diff] by Paul Graham
  * [Why Ruby is an Acceptable Lisp][lirb] by Eric Kidd
@@ -102,9 +102,9 @@ Under these conditions[^define], what current languages are Lisps?  Which fall s
 
 If you walk through this list focusing your lens of reason through various programming languages then which ones make the cut?  One interesting consequence that falls out of adhering strictly to the list above is that those that meet many of the criteria tend to be little languages (another aspect I will explore from time to time).  For example, Lua meets many of the criteria above, but is it a Lisp?  Likewise, even Common Lisp falls short on #12 and many of the remaining points, while supported, are not considered "the Common Lisp way."[^clway]
 
-Is Lisp a Platonic ideal?
+## Is Lisp a Platonic ideal?
 
-[^define]: Just because MacCarthy invented Lisp doesn't mean that he has the right to define what constitutes a Lisp.  This seems like a counter-intuitive thing to say, but the fact is that Lisp has grown far beyond anything that McCarthy imagined at the time that he defined the first `eval`.  Vendors, users, programmers, standards committees and implementors have a say also.
+Just because MacCarthy invented Lisp doesn't mean that he has the right to define what constitutes a Lisp.  This seems like a counter-intuitive thing to say, but the fact is that Lisp has grown far beyond anything that McCarthy imagined at the time that he defined the first `eval`.  Vendors, users, programmers, standards committees and implementors have a say also.
 
 Pinning down what constitutes a Lisp based on McCarthy's list above is a tough task that is due to exclude many participants with partial (and often legitimate) claims to the feature set above.  On the other hand, simply taking an implementation like Common Lisp as the model of "Lispiness" is unsatisfactory as well since doing so exludes historical Lisps that fed into the development of the Common Lisp standard.  So maybe the right answer to "what is Lisp?" is simply -- who cares?  For the purposes of this zine[^zine] I'll freely mix discussion and examples for various Lisp implementations both current and historical and not worry too much about identity issues.
 
