@@ -388,6 +388,10 @@ Each of these languages were ahead of their time and offered first-class develop
  * [GregHendershott's Fear of Macros](http://www.greghendershott.com/fear-of-macros/)
  * [Simply Scheme: Introducing Computer Science](http://www.cs.berkeley.edu/~bh/ss-toc2.html) by Brian Harvey and Matthew Wright
 
+## Source
+ 
+ * [Javascript compiler for EmacsLisp](https://github.com/nicferrier/emacs-ejit) by Nic Ferrier
+ * [A teeny-tiny Markdown parser in Clojure](https://github.com/chameco/Hitman/blob/master/src/hitman/core.clj)
 
 ## Finally
 
