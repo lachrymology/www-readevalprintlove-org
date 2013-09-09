@@ -20,6 +20,17 @@ the color of his missing leg, etc.), or whether he has just three legs
 is to have all the properties of the class, and to ask the implicit question:
 "is there anything you can then depend on if exceptions are allowed?").
 
+TODO - focus:
+
+* Common Lisp
+* Dylan
+* EuLisp
+* ISLISP
+* Goo
+* PLOT
+* Clojure
+* Java
+
 --- name:study-intro
 
 Every issue of Read-Eval-Print-λove will offer recommendations for study.  The *study* section will usually contain an anchoring theme for the issue, but will sometimes be something else entirely.
