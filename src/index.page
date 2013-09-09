@@ -133,7 +133,7 @@ One interesting consequence that falls out of adhering strictly to the list abov
 
 [^lua]: Lua is very close to meeting all of the requirements above and with [MetaLua](http://metalua.luaforge.net/) is darn near complete.
 
-[^std]: A relience on the Common Lisp standard for language definition leads me to believe that `eval` is an insufficient mechanism for describing the nuances of CL.
+[^std]: A reliance on the Common Lisp standard for language definition leads me to believe that `eval` is an insufficient mechanism for describing the nuances of CL.
 
 [^clway]: To the extent that Common Lisp has or supports a "way."
 
@@ -309,7 +309,7 @@ Recall the graphic from the beginning of this article:
 
 ![Lisps](http://readevalprintlove.fogus.me/images/lisps.png "The space between")
 
-This section deals with the crimson space between, affectionetly refered to as *Fluchtpunkt Lisp*.
+This section deals with the crimson space between, affectionately referred to as *Fluchtpunkt Lisp*.
 
 Fluchtpunkt Lisps skirt the vanishing point (in German, *der fluchtpunkt*) between theory, practicality and art.  These implementations are all of the other categories in some way, while simultaneously being none in particular.  These Lisps are not libraries nor do they typically have full-blown development ecosystems like the four higher-level categories outlined above.  They may or may not be general purpose languages in all instances, but they are **all driven by a fervent ideal**.  
 
@@ -641,7 +641,7 @@ If for no other reason, you should [buy Land of Lisp][lol] because of the extrem
 
 ![One of the many laugh-out-loud moments](http://readevalprintlove.fogus.me/images/dialect.png)
 
-The author, [Conrad Barski M.D.][cb], takes the reader through a whirlwind tour of Common Lisp and some of the fundamental principles of game development, but interestingly enough it never feels rushed. He accomplishes this feat by sticking to a very important strategy summarized as, "providing something useful at every stage". That is, every example in the book is meant to fit into the context of the larger game examples (e.g. a text adventure, Dice of Doom, etc.) while simultaneously teaching a lesson about Common Lisp *and* provide utility in isolation. It's really a thing of beauty the way that Mr. Barski manages to build useable games piecemeal while teaching important concepts along the way. To illustrate what I mean, let me give an example.
+The author, [Conrad Barski M.D.][cb], takes the reader through a whirlwind tour of Common Lisp and some of the fundamental principles of game development, but interestingly enough it never feels rushed. He accomplishes this feat by sticking to a very important strategy summarized as, "providing something useful at every stage". That is, every example in the book is meant to fit into the context of the larger game examples (e.g. a text adventure, Dice of Doom, etc.) while simultaneously teaching a lesson about Common Lisp *and* provide utility in isolation. It's really a thing of beauty the way that Mr. Barski manages to build usable games piecemeal while teaching important concepts along the way. To illustrate what I mean, let me give an example.
 
 The Dice of Doom game[^games] example starts with a very small 2x2 board and the program parts needed to represent it. Mr. Barski then builds pieces on top of this substrate to generate positions, while extolling the virtues of decoupling the logic of the game from its representation. It's at this point that the game is playable against a human opponent, but at no previous stage was the code left in a state of flux -- each one was fully amenable to tinkering, tweaking, and experimentation. As an added bonus, the whole implementation by this stage was an incredible 13 lines! (that is actually not true, it's more than that, but by using Common Lisp the implementation was incredibly concise) As if this feat was not impressive enough, Mr. Barski then adds game AI into the mix while explaining the famous minimax search algorithm. He then makes the game more efficient using some techniques common in functional programming, including: closures, memoization, tail-calls (with caveats), and lazy programming. As expected the game itself becomes more feature rich as these lessons progress as stronger AI (i.e. better evaluation) is added, more efficient search techniques are introduced (i.e. alpha-beta pruning), and heuristics are used.
 
@@ -693,7 +693,7 @@ These languages were, and are, amazing and important entries in the annals of la
 
 ### Wheels of a sort
 
-Each of the languages listed above were ahead of their time and offered first-class development environments for the Apple line of computers and systems.  However, over time Apple eventually phased out each and every one and indeed the very computers that they targetted.  From the start, the Apple I and early versions of the Apple II computers were software and hardware extensible and for many a young man or woman were truly "wheels for the mind."  
+Each of the languages listed above were ahead of their time and offered first-class development environments for the Apple line of computers and systems.  However, over time Apple eventually phased out each and every one and indeed the very computers that they targeted.  From the start, the Apple I and early versions of the Apple II computers were software and hardware extensible and for many a young man or woman were truly "wheels for the mind."  
 
 Sadly, had Apple simply phased out old hardware and development systems in favor of something new and more powerful then few would have shed a tear.  Instead, Apple moved away from the very notion of "wheels of the mind" in favor of building systems for consumers.  Objective C, the iPad and iCloud are no longer "wheels for the mind" but are instead simply "training wheels for the mind."
 
