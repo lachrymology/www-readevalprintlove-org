@@ -209,7 +209,7 @@ environment.</p>
 
 <p><img src="http://farm4.staticflickr.com/3757/9714346439_c1b802a549_o.png" width="295" height="250" alt="maybe"></p>
 
-<p>One interesting consequence that falls out of adhering strictly to the list above is that those that meet many of the criteria tend to be little languages (another aspect I will explore from time to time).  For example, Lua<sup id="fnref:lua"><a href="#fn:lua" class="footnote">4</a></sup> meets many of the criteria above, but is it a Lisp?  Likewise, even Common Lisp falls short on at least one<sup id="fnref:std"><a href="#fn:std" class="footnote">5</a></sup> of McCarthy's criteria and many of the remaining points, while supported, are not considered central to â€œthe Common Lisp way.â€ <sup id="fnref:clway"><a href="#fn:clway" class="footnote">6</a></sup></p>
+<p>One interesting consequence that falls out of adhering strictly to the list above is that those that meet many of the criteria tend to be little languages (another aspect I will explore from time to time).  For example, Lua<sup id="fnref:lua"><a href="#fn:lua" class="footnote">4</a></sup> meets many of the criteria above, but is it a Lisp?  Likewise, even Common Lisp falls short on at least one<sup id="fnref:std"><a href="#fn:std" class="footnote">5</a></sup> of McCarthy's criteria and many of the remaining points, while supported, are not considered central to "the Common Lisp way.â€ <sup id="fnref:clway"><a href="#fn:clway" class="footnote">6</a></sup></p>
 
 <h2 id="whos-lisp">Who's Lisp?</h2>
 
@@ -217,7 +217,7 @@ environment.</p>
 
 <p><img src="http://farm4.staticflickr.com/3764/9714339415_6dc256e820_o.jpg" width="373" height="450" alt="naggum"></p>
 
-<p>Pinning down what constitutes a Lisp based on McCarthy's list above is a tough task that is due to exclude many participants with partial (and often legitimate) claims to the feature set above. <sup id="fnref:scmnot"><a href="#fn:scmnot" class="footnote">7</a></sup>  On the other hand, simply taking an implementation like Common Lisp as the model of â€œLispinessâ€ is unsatisfactory as well since doing so excludes historical Lisps that fed into the development of the Common Lisp standard.  So maybe the right answer to â€œwhat is Lisp?â€ is simply -- â€œwho cares?â€<sup id="fnref:idont"><a href="#fn:idont" class="footnote">8</a></sup>  For the purposes of this zine<sup id="fnref:zine"><a href="#fn:zine" class="footnote">9</a></sup> I'll freely mix discussion and examples for various Lisp implementations both current and historical and not worry too much about identity issues.</p>
+<p>Pinning down what constitutes a Lisp based on McCarthy's list above is a tough task that is due to exclude many participants with partial (and often legitimate) claims to the feature set above. <sup id="fnref:scmnot"><a href="#fn:scmnot" class="footnote">7</a></sup>  On the other hand, simply taking an implementation like Common Lisp as the model of "Lispinessâ€ is unsatisfactory as well since doing so excludes historical Lisps that fed into the development of the Common Lisp standard.  So maybe the right answer to "what is Lisp?â€ is simply -- "who cares?â€<sup id="fnref:idont"><a href="#fn:idont" class="footnote">8</a></sup>  For the purposes of this zine<sup id="fnref:zine"><a href="#fn:zine" class="footnote">9</a></sup> I'll freely mix discussion and examples for various Lisp implementations both current and historical and not worry too much about identity issues.</p>
 
 <h1 id="the-german-school-of-lisp-revisited">The German School of Lisp <sup id="fnref:revisited"><a href="#fn:revisited" class="footnote">10</a></sup></h1>
 
@@ -272,7 +272,7 @@ environment.</p>
 
 <h2 id="practical-lisps">Practical Lisps</h2>
 
-<p>Practicality is a relative term.  Having said that, there are clearly a set of Lisps that exist primarily to solve â€œreal worldâ€ <sup id="fnref:real"><a href="#fn:real" class="footnote">11</a></sup> problems and to typically build stand alone applications, including: <a href="http://common-lisp.net/">Common Lisp</a>, <a href="http://clojure.org">Clojure</a>, <a href="http://www.schemers.org/">Scheme (R5RS, R6RS, R7RS-big)</a>, <a href="http://racket-lang.org/">Racket</a>, <a href="http://www.call-cc.org/">Chicken Scheme</a>, and <a href="http://www.opendylan.org/">Dylan</a>.  </p>
+<p>Practicality is a relative term.  Having said that, there are clearly a set of Lisps that exist primarily to solve "real worldâ€ <sup id="fnref:real"><a href="#fn:real" class="footnote">11</a></sup> problems and to typically build stand alone applications, including: <a href="http://common-lisp.net/">Common Lisp</a>, <a href="http://clojure.org">Clojure</a>, <a href="http://www.schemers.org/">Scheme (R5RS, R6RS, R7RS-big)</a>, <a href="http://racket-lang.org/">Racket</a>, <a href="http://www.call-cc.org/">Chicken Scheme</a>, and <a href="http://www.opendylan.org/">Dylan</a>.  </p>
 
 <pre class="prettyprint lang-clj"><code>;; Using Clojure for street lane detection from 
 ;; video source -- elided (Nakkaya 2011)
@@ -345,13 +345,13 @@ environment.</p>
  :quote =&gt; proc { |sexpr, _| sexpr[0] } }
 </code></pre>
 
-<p>However, the vast majority of these Lisps exist for pedagogical pursuits and are rarely (if ever) overtly practical<sup id="fnref:overt"><a href="#fn:overt" class="footnote">12</a></sup>.  That's not to say that there is no value in pedagogical Lisps.  I'm a strong advocate of using small Lisp implementations as a programmer's fruit fly (i.e. a model â€œorganismâ€ for understanding languages and computation).</p>
+<p>However, the vast majority of these Lisps exist for pedagogical pursuits and are rarely (if ever) overtly practical<sup id="fnref:overt"><a href="#fn:overt" class="footnote">12</a></sup>.  That's not to say that there is no value in pedagogical Lisps.  I'm a strong advocate of using small Lisp implementations as a programmer's fruit fly (i.e. a model "organismâ€ for understanding languages and computation).</p>
 
 <h2 id="fluchtpunkt-lisps">Fluchtpunkt Lisps</h2>
 
 <p>The German school of Lisp is described by <a href="http://kazimirmajorinc.blogspot.com/2011/04/one-picolisp-snippet.html">Kazimir Majorinc</a> as a Spartan movement<sup id="fnref:mini"><a href="#fn:mini" class="footnote">13</a></sup> in Lisp implementation.<sup id="fnref:toys"><a href="#fn:toys" class="footnote">14</a></sup>  While I can agree with this categorization, I think that there's more to the German school than just one aspect.  In fact, I would say that to meet the criteria of the German school, a Lisp must take a philosophical stand in its implementation.</p>
 
-<p>I'd like to propose a new term for the kinds of Lisps that fall into this â€œschoolâ€ classified largely by their Spartan natures.  </p>
+<p>I'd like to propose a new term for the kinds of Lisps that fall into this "schoolâ€ classified largely by their Spartan natures.  </p>
 
 <p>Recall the graphic from the beginning of this article:</p>
 
@@ -402,7 +402,7 @@ environment.</p>
 
 <p>Shen (and its predecessor Qi) really pushes the limits of what we might call a Fluchtpunkt Lisp.  I suspect it requires a categorization of its own.  </p>
 
-<p>A few years ago I was looking for a Lisp to dive into and my searching uncovered two extremely interesting options: Clojure and Qi.  I eventually went with Clojure, but in the intervening time I've managed to spend quality time with Qi and I love what I've seen so far.  Qi's confluence of features, including an optional type system (actually, its type system might be more accurately classified as â€œskinnableâ€), pattern matching,<sup id="fnref:patt"><a href="#fn:patt" class="footnote">17</a></sup> and an embedded logic engine based on Prolog, make it a very compelling choice indeed.</p>
+<p>A few years ago I was looking for a Lisp to dive into and my searching uncovered two extremely interesting options: Clojure and Qi.  I eventually went with Clojure, but in the intervening time I've managed to spend quality time with Qi and I love what I've seen so far.  Qi's confluence of features, including an optional type system (actually, its type system might be more accurately classified as "skinnableâ€), pattern matching,<sup id="fnref:patt"><a href="#fn:patt" class="footnote">17</a></sup> and an embedded logic engine based on Prolog, make it a very compelling choice indeed.</p>
 
 <pre class="prettyprint lang-scm"><code>\\ Defining card rank and suit types using Shen
 \\ from http://www.shenlanguage.org
@@ -500,7 +500,7 @@ environment.</p>
 
 <p><a href="http://www.picolisp.com/">http://www.picolisp.com/</a></p>
 
-<p>I first came across PicoLisp when reading the paper <a href="http://software-lab.de/radical.pdf">â€œPico Lisp: A Radical Approach to Application Developmentâ€</a> by  Alexander Burger and was instantly fascinated.  The primary goal is to provide an idealized Lisp interpreter that runs as fast as possible.  To accomplish this goal PicoLisp limits its feature set and optimizes the code path along the dimensions of its features.  The core types provided by PicoLisp are numbers, symbols, and lists.  Given the paucity of these types PicoLisp has the advantage of always taking the most direct interpretation path and thus avoiding any unnecessary checks and abstractions that a more corpulent Lisp might require.  For example, PicoLisp's <code>quote</code> function is defined in such a way that it <a href="http://picolisp.com/5000/!wiki?ArticleQuote">returns all of its arguments unevaluated</a> allowing the operation of <code>quote</code> to optimize into only a return of its <code>cdr</code> rather than the <code>car</code> of its <code>cdr</code>.  Simple no?</p>
+<p>I first came across PicoLisp when reading the paper <a href="http://software-lab.de/radical.pdf">"Pico Lisp: A Radical Approach to Application Developmentâ€</a> by  Alexander Burger and was instantly fascinated.  The primary goal is to provide an idealized Lisp interpreter that runs as fast as possible.  To accomplish this goal PicoLisp limits its feature set and optimizes the code path along the dimensions of its features.  The core types provided by PicoLisp are numbers, symbols, and lists.  Given the paucity of these types PicoLisp has the advantage of always taking the most direct interpretation path and thus avoiding any unnecessary checks and abstractions that a more corpulent Lisp might require.  For example, PicoLisp's <code>quote</code> function is defined in such a way that it <a href="http://picolisp.com/5000/!wiki?ArticleQuote">returns all of its arguments unevaluated</a> allowing the operation of <code>quote</code> to optimize into only a return of its <code>cdr</code> rather than the <code>car</code> of its <code>cdr</code>.  Simple no?</p>
 
 <p>Another interesting aspect of PicoLisp is that is does not contain strings, arrays, vectors nor anything but exactly numbers, symbols and lists as first-class data types.  It's drive is for simplicity <sup id="fnref:simpl"><a href="#fn:simpl" class="footnote">20</a></sup> in its offerings and possibilities as well as its implementation.  Aside from the practical matter that offering more data types means that there would be more type-specific functions, on the implementation side an increase in the  <a href="http://picolisp.com/5000/!wiki?ArrayAbstinence">number of tag-bits</a> is a limiting factor as well.  If you need a string, use a symbol.  If you need an array, use a list.  And so onâ€¦</p>
 
@@ -527,7 +527,7 @@ environment.</p>
 
 <p><a href="http://sites.google.com/site/waspvm/">http://sites.google.com/site/waspvm/</a></p>
 
-<p>Wasp Lisp is a small Scheme inspired by Erlang with lightweight cooperative threads, communication via channels, and an implementation of <a href="http://bc.tech.coop/blog/061119.html">MOSREF</a>.  This latter feature is fairly interesting in that it allows one to create a network of â€œdroneâ€ Wasp VMs that can receive secure snippets of code from a remote console for execution.  </p>
+<p>Wasp Lisp is a small Scheme inspired by Erlang with lightweight cooperative threads, communication via channels, and an implementation of <a href="http://bc.tech.coop/blog/061119.html">MOSREF</a>.  This latter feature is fairly interesting in that it allows one to create a network of "droneâ€ Wasp VMs that can receive secure snippets of code from a remote console for execution.  </p>
 
 <h2 id="what-is-fluchtpunkt">What is Fluchtpunkt?</h2>
 
@@ -546,7 +546,7 @@ environment.</p>
 
 <p>The differences between Common Lisp and Scheme are numerous and deep, but one difference that truly stands out to newcomers is summarized as their respective Lisp-2 and Lisp-1 natures.  In a sentence, Lisp-1 refers to a language that binds function values in the same namespace as any other values while a Lisp-2 binds function values in a separate namespace from other kinds of values.  The mechanics of <sup id="fnref:lisp-n"><a href="#fn:lisp-n" class="footnote">21</a></sup> namespacing are not important for this section, but I'll probably talk about it more in future installments.</p>
 
-<p>One way that this difference manifests itself is in endless, mostly pedantic Usenet threads and blog posts.  However, the other manifestation is in the way that higher-order and first-class functions are built.  Take for example a <code>best</code> function implemented in Common Lisp that takes a function and a list and returns the â€œbestâ€ value based on the pairwise criteria encoded in the given function:</p>
+<p>One way that this difference manifests itself is in endless, mostly pedantic Usenet threads and blog posts.  However, the other manifestation is in the way that higher-order and first-class functions are built.  Take for example a <code>best</code> function implemented in Common Lisp that takes a function and a list and returns the "bestâ€ value based on the pairwise criteria encoded in the given function:</p>
 
 <pre class="prettyprint lang-lisp"><code>;; Common Lisp -- bad example
 
@@ -568,7 +568,7 @@ environment.</p>
           list))
 </code></pre>
 
-<p>Instead of placing <code>fun</code> at the head of a list the new implementation calls its value (hopefully a function) via the <code>funcall</code> function.  Common Lisp's <code>funcall</code> will indeed resolve the value of <code>fun</code> via normal argument evaluation and â€œdo the right thing,â€ as shown below:</p>
+<p>Instead of placing <code>fun</code> at the head of a list the new implementation calls its value (hopefully a function) via the <code>funcall</code> function.  Common Lisp's <code>funcall</code> will indeed resolve the value of <code>fun</code> via normal argument evaluation and "do the right thing" as shown below:</p>
 
 <pre class="prettyprint lang-lisp"><code>(best #'&gt; '(1 2 3 4 5 6 -1))
 ;;=&gt; 6
@@ -659,7 +659,7 @@ environment.</p>
 
 <p><img src="http://replove.herokuapp.com/images/dialect.png" alt="One of the many laugh-out-loud moments" /></p>
 
-<p>The author, <a href="http://landoflisp.com/">Conrad Barski M.D.</a>, takes the reader through a whirlwind tour of Common Lisp and some of the fundamental principles of game development, but interestingly enough it never feels rushed. He accomplishes this feat by sticking to a very important strategy summarized as, â€œproviding something useful at every stageâ€. That is, every example in the book is meant to fit into the context of the larger game examples (e.g. a text adventure, Dice of Doom, etc.) while simultaneously teaching a lesson about Common Lisp <em>and</em> provide utility in isolation. It's really a thing of beauty the way that Mr. Barski manages to build usable games piecemeal while teaching important concepts along the way. To illustrate what I mean, let me give an example.</p>
+<p>The author, <a href="http://landoflisp.com/">Conrad Barski M.D.</a>, takes the reader through a whirlwind tour of Common Lisp and some of the fundamental principles of game development, but interestingly enough it never feels rushed. He accomplishes this feat by sticking to a very important strategy summarized as, "providing something useful at every stageâ€. That is, every example in the book is meant to fit into the context of the larger game examples (e.g. a text adventure, Dice of Doom, etc.) while simultaneously teaching a lesson about Common Lisp <em>and</em> provide utility in isolation. It's really a thing of beauty the way that Mr. Barski manages to build usable games piecemeal while teaching important concepts along the way. To illustrate what I mean, let me give an example.</p>
 
 <p>The Dice of Doom game<sup id="fnref:games"><a href="#fn:games" class="footnote">25</a></sup> example starts with a very small 2x2 board and the program parts needed to represent it. Mr. Barski then builds pieces on top of this substrate to generate positions, while extolling the virtues of decoupling the logic of the game from its representation. It's at this point that the game is playable against a human opponent, but at no previous stage was the code left in a state of flux -- each one was fully amenable to tinkering, tweaking, and experimentation. As an added bonus, the whole implementation by this stage was an incredible 13 lines! (that is actually not true, it's more than that, but by using Common Lisp the implementation was incredibly concise) As if this feat was not impressive enough, Mr. Barski then adds game AI into the mix while explaining the famous minimax search algorithm. He then makes the game more efficient using some techniques common in functional programming, including: closures, memoization, tail-calls (with caveats), and lazy programming. As expected the game itself becomes more feature rich as these lessons progress as stronger AI (i.e. better evaluation) is added, more efficient search techniques are introduced (i.e. alpha-beta pruning), and heuristics are used.</p>
 
@@ -676,11 +676,11 @@ environment.</p>
 
 <h2 id="voices-from-the-apple">Voices from the Apple</h2>
 
-<p>Apple once had a brilliant marketing campaign famously known as â€œWheels for the mind.â€  The starkly simple, yet powerful image that went along with that phrase was as follows:</p>
+<p>Apple once had a brilliant marketing campaign famously known as "Wheels for the mind.â€  The starkly simple, yet powerful image that went along with that phrase was as follows:</p>
 
 <p><img src="http://replove.herokuapp.com/images/wftm.jpg" alt="Wheels for the Mind" /></p>
 
-<p>This particular ad was run in 1981 and referred directly to the <a href="http://apple2history.org/">Apple II line of computers</a>.  However, even after that ad ran its course the company designed and developed amazing technologies that truly did serve as â€œwheels for the mind,â€ including, but not limited to the following.</p>
+<p>This particular ad was run in 1981 and referred directly to the <a href="http://apple2history.org/">Apple II line of computers</a>.  However, even after that ad ran its course the company designed and developed amazing technologies that truly did serve as "wheels for the mind" including, but not limited to the following.</p>
 
 <h3 id="macintosh-common-lisp-mcl">Macintosh Common Lisp (MCL)</h3>
 
@@ -704,9 +704,9 @@ environment.</p>
 
 <h3 id="wheels-of-a-sort">Wheels of a sort</h3>
 
-<p>Each of the languages listed above were ahead of their time and offered first-class development environments for the Apple line of computers and systems.  However, over time Apple eventually phased out each and every one and indeed the very computers that they targeted.  From the start, the Apple I and early versions of the Apple II computers were software and hardware extensible and for many a young man or woman were truly â€œwheels for the mind.â€  </p>
+<p>Each of the languages listed above were ahead of their time and offered first-class development environments for the Apple line of computers and systems.  However, over time Apple eventually phased out each and every one and indeed the very computers that they targeted.  From the start, the Apple I and early versions of the Apple II computers were software and hardware extensible and for many a young man or woman were truly "wheels for the mind.â€  </p>
 
-<p>Sadly, had Apple simply phased out old hardware and development systems in favor of something new and more powerful then few would have shed a tear.  Instead, Apple moved away from the very notion of â€œwheels of the mindâ€ in favor of building systems for consumers.  Objective C, the iPad and iCloud are no longer â€œwheels for the mindâ€ but are instead simply â€œtraining wheels for the mind.â€</p>
+<p>Sadly, had Apple simply phased out old hardware and development systems in favor of something new and more powerful then few would have shed a tear.  Instead, Apple moved away from the very notion of "wheels of the mindâ€ in favor of building systems for consumers.  Objective C, the iPad and iCloud are no longer "wheels for the mindâ€ but are instead simply "training wheels for the mind.â€</p>
 
 <p><img src="http://replove.herokuapp.com/images/twftm.jpg" alt="Training wheels for the mind" /></p>
 
@@ -718,7 +718,7 @@ environment.</p>
 
 <h2 id="matters-of-perspective">Matters of perspective</h2>
 
-<p>The long-standing trench-warfare between Common Lispers and Schemers has claimed many a pride as casualties.  While the â€œsoldiersâ€ have grown weary over the years, the fundamental differences between the two camps can be summarized as in the following relativistic lexicon.</p>
+<p>The long-standing trench-warfare between Common Lispers and Schemers has claimed many a pride as casualties.  While the "soldiersâ€ have grown weary over the years, the fundamental differences between the two camps can be summarized as in the following relativistic lexicon.</p>
 
 <table>
   <thead>
@@ -800,11 +800,11 @@ com/chameco/Hitman/blob/master/src/hitman/core.clj)</li>
 
 <p>If you've enjoyed this installment of Read-Eval-Print-λove then please consider buying the PDF / mobi / epub versions on Leanpub at <a href="https://leanpub.com/readevalprintlove001">https://leanpub.com/readevalprintlove001</a>, paying whatever you think it's worth.</p>
 
-<p>I'd like to thank Xach Beane for the AutoMotivator webapp used to create the Erik Naggum image and Conrad Barski for the â€œAlien technologyâ€ images.  I'd also like to thank Craig Andera and Russ Olsen for reviewing a draft of this issue.  Also, Read-Eval-Print-λove's spirit is inspired by the beautiful works of Kragen Javier Sitaker.  Finally, the cover of this issue was painted by my mother-in-law Kiyomi Okada.</p>
+<p>I'd like to thank Xach Beane for the AutoMotivator webapp used to create the Erik Naggum image and Conrad Barski for the "Alien technologyâ€ images.  I'd also like to thank Craig Andera and Russ Olsen for reviewing a draft of this issue.  Also, Read-Eval-Print-λove's spirit is inspired by the beautiful works of Kragen Javier Sitaker.  Finally, the cover of this issue was painted by my mother-in-law Kiyomi Okada.</p>
 
 <p>Is there something that you'd like to see in future issues?  Email me at the address below with suggestions.  If you'd like to discuss this issue of Read-Eval-Print-λove then head on over to <a href="http://www.lispforum.com">http://www.lispforum.com</a> or the LL.next mailing list at <a href="https://groups.google.com/forum/#!forum/ll-next">https://groups.google.com/forum/#!forum/ll-next</a> -- I'll be there.</p>
 
-<p>The tentative release date for issue #2 is sometime in late October or early November, 2013.  The theme for issue #2 is â€œOrientation around objects.â€</p>
+<p>The tentative release date for issue #2 is sometime in late October or early November, 2013.  The theme for issue #2 is "Orientation around objects.â€</p>
 
 <div class="footnotes">
   <ol>
@@ -824,28 +824,28 @@ com/chameco/Hitman/blob/master/src/hitman/core.clj)</li>
       <p>A reliance on the Common Lisp standard for language definition leads me to believe that <code>eval</code> is an insufficient mechanism for describing the nuances of CL. <a href="#fnref:std" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:clway">
-      <p>To the extent that Common Lisp has or supports a â€œway.â€ <a href="#fnref:clway" class="reversefootnote">&#8617;</a></p>
+      <p>To the extent that Common Lisp has or supports a "way.â€ <a href="#fnref:clway" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:scmnot">
       <p>There was an epic thread on the comp.lang.lisp Usenet list circa 2002 involving part trolling, part rage and part wisdom entitled <em><a href="https://groups.google.com/forum/#!topic/comp.lang.lisp/Bj8Hx6mZEYI">Why Scheme is not a Lisp?</a></em>.  It's well worth exploring that thread for a deeper understanding of just what constitutes a Lisp and how Internet communications will be the death of us all. <a href="#fnref:scmnot" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:idont">
-      <p>I don't really care, but I'll still try to use the terms â€œLisp familyâ€ vs. â€œLittle languageâ€ vs. some other terms to make a distinction. <a href="#fnref:idont" class="reversefootnote">&#8617;</a></p>
+      <p>I don't really care, but I'll still try to use the terms "Lisp familyâ€ vs. "Little languageâ€ vs. some other terms to make a distinction. <a href="#fnref:idont" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:zine">
-      <p>The tern â€œzineâ€ is a bit archaic, but I've not thought of a better term for what this is.  I was considering â€œxineâ€, but that's not really satisfactory either. <a href="#fnref:zine" class="reversefootnote">&#8617;</a></p>
+      <p>The tern "zineâ€ is a bit archaic, but I've not thought of a better term for what this is.  I was considering "xineâ€, but that's not really satisfactory either. <a href="#fnref:zine" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:revisited">
-      <p>This is an expanded and updated version of an <a href="http://blog.fogus.me/2011/05/03/the-german-school-of-lisp-2/">earlier article â€œThe German School of Lispâ€ from 2011</a>. <a href="#fnref:revisited" class="reversefootnote">&#8617;</a></p>
+      <p>This is an expanded and updated version of an <a href="http://blog.fogus.me/2011/05/03/the-german-school-of-lisp-2/">earlier article "The German School of Lispâ€ from 2011</a>. <a href="#fnref:revisited" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:real">
-      <p>I really hesitate to use the term â€œreal worldâ€ because it's often used to categorize highly fashionable or mainstream jobs or markets.  However, <em>my</em> â€œreal-worldâ€ involves distributed simulations and production rules systems, two somewhat specialized fields.  Sadly, I think that â€œreal worldâ€ is a place where programmers retreat to avoid learning something new and possibly challenging. <a href="#fnref:real" class="reversefootnote">&#8617;</a></p>
+      <p>I really hesitate to use the term "real worldâ€ because it's often used to categorize highly fashionable or mainstream jobs or markets.  However, <em>my</em> "real-worldâ€ involves distributed simulations and production rules systems, two somewhat specialized fields.  Sadly, I think that "real worldâ€ is a place where programmers retreat to avoid learning something new and possibly challenging. <a href="#fnref:real" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:overt">
       <p>However, toy and Ur-Lisps are practical insomuch as the act of implementing them is good programming practice. <a href="#fnref:overt" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:mini">
-      <p>I intentionally avoid the word â€œminimalâ€ in this post.  Spartan is Mr. Majorinc's word, and I think it is more appropriate. <a href="#fnref:mini" class="reversefootnote">&#8617;</a></p>
+      <p>I intentionally avoid the word "minimalâ€ in this post.  Spartan is Mr. Majorinc's word, and I think it is more appropriate. <a href="#fnref:mini" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:toys">
       <p>But let me be clear, the Lisps in this section are not toys like the ones littering the Lisp landscape (including, and especially, my own: <a href="http://github.com/fogus/lithp">Lithp</a> and <a href="http://github.com/fogus/ulithp">Î¼Lithp</a>). <a href="#fnref:toys" class="reversefootnote">&#8617;</a></p>
@@ -866,7 +866,7 @@ com/chameco/Hitman/blob/master/src/hitman/core.clj)</li>
       <p>Well, you could also use <code>(mul 4 (atan 1))</code> if you didn't care about precision. :p <a href="#fnref:mul" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:simpl">
-      <p>The word â€œsimpleâ€ is used in a loose way throughout this issue and is not tied to its dual â€œentangledâ€ nor â€œcomplected.â€ <a href="#fnref:simpl" class="reversefootnote">&#8617;</a></p>
+      <p>The word "simpleâ€ is used in a loose way throughout this issue and is not tied to its dual "entangledâ€ nor "complected.â€ <a href="#fnref:simpl" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:lisp-n">
       <p>Common Lisp has many more than two namespaces for binding certain values to names.  I could (and probably will) write a whole issue on just this topic. <a href="#fnref:lisp-n" class="reversefootnote">&#8617;</a></p>
@@ -875,7 +875,7 @@ com/chameco/Hitman/blob/master/src/hitman/core.clj)</li>
       <p>The <code>schemish</code> macro is taken wholly from Erik Naggum (at https://groups.google.com/forum/#!topic/comp.lang.lisp/Bj8Hx6mZEYI%5B101-125) with the name changed for giggles.  I also removed his use of <code>locally</code> as I didn't want to get into a discussion of why it was or wasn't needed.  It's worth reading the original message for additional illumination.  You can enhance your reading by exploring his original code and my changes at <a href="http://ideone.com/axfTIQ">http://ideone.com/axfTIQ</a>. <a href="#fnref:scm-macro" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:nope">
-      <p>I'll not discuss the â€œkindsâ€ at all.  Sorry. <a href="#fnref:nope" class="reversefootnote">&#8617;</a></p>
+      <p>I'll not discuss the "kindsâ€ at all.  Sorry. <a href="#fnref:nope" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:hmmm">
       <p>Debatable. <a href="#fnref:hmmm" class="reversefootnote">&#8617;</a></p>
