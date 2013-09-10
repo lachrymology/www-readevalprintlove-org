@@ -13,7 +13,7 @@ run Proc.new { |env|
 
   if File.exists?(index_file)
     # Return the index
-    [200, {'Content-Type' => 'text/html'}, [File.read(index_file)]]
+    [200, {'Content-Type' => 'text/html'}, [File.read(index_file).force_encoding('UTF-8')]]
   else
     # Pass the request to the directory app
     Rack::Directory.new(@root).call(env)
