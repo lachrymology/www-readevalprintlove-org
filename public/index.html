@@ -112,7 +112,7 @@ immediately posed his question again:</p>
 
 <h1 id="dedication">Dedication</h1>
 
-<p><img src="http://replove.herokuapp.com/images/jmc.jpg" alt="September 4, 1927 â€“ October 24, 2011" /></p>
+<p><img src="http://replove.herokuapp.com/images/jmc.jpg" alt="September 4, 1927 -- October 24, 2011" /></p>
 
 <h1 id="whats-lisp">What's Lisp?</h1>
 
@@ -217,13 +217,13 @@ environment.</p>
 
 <p><img src="http://farm4.staticflickr.com/3764/9714339415_6dc256e820_o.jpg" width="373" height="450" alt="naggum"></p>
 
-<p>Pinning down what constitutes a Lisp based on McCarthy's list above is a tough task that is due to exclude many participants with partial (and often legitimate) claims to the feature set above. <sup id="fnref:scmnot"><a href="#fn:scmnot" class="footnote">7</a></sup>  On the other hand, simply taking an implementation like Common Lisp as the model of â€œLispinessâ€ is unsatisfactory as well since doing so excludes historical Lisps that fed into the development of the Common Lisp standard.  So maybe the right answer to â€œwhat is Lisp?â€ is simply â€“ â€œwho cares?â€<sup id="fnref:idont"><a href="#fn:idont" class="footnote">8</a></sup>  For the purposes of this zine<sup id="fnref:zine"><a href="#fn:zine" class="footnote">9</a></sup> I'll freely mix discussion and examples for various Lisp implementations both current and historical and not worry too much about identity issues.</p>
+<p>Pinning down what constitutes a Lisp based on McCarthy's list above is a tough task that is due to exclude many participants with partial (and often legitimate) claims to the feature set above. <sup id="fnref:scmnot"><a href="#fn:scmnot" class="footnote">7</a></sup>  On the other hand, simply taking an implementation like Common Lisp as the model of â€œLispinessâ€ is unsatisfactory as well since doing so excludes historical Lisps that fed into the development of the Common Lisp standard.  So maybe the right answer to â€œwhat is Lisp?â€ is simply -- â€œwho cares?â€<sup id="fnref:idont"><a href="#fn:idont" class="footnote">8</a></sup>  For the purposes of this zine<sup id="fnref:zine"><a href="#fn:zine" class="footnote">9</a></sup> I'll freely mix discussion and examples for various Lisp implementations both current and historical and not worry too much about identity issues.</p>
 
 <h1 id="the-german-school-of-lisp-revisited">The German School of Lisp <sup id="fnref:revisited"><a href="#fn:revisited" class="footnote">10</a></sup></h1>
 
 <p>Allow me to take a few moments to broadly segment the Lisp ecosystem into high-level categories, namely: Extension Lisps, Practical Lisps, Kernel Lisps and Lisps targeting education.</p>
 
-<p>Of course, there are overlaps between these categories for any given Lisp instance, and you may not agree with certain placements or even the categories themselves.  That said, please humor me as I'm trying to establish a basis for an observation that there exist a category of Lisp-like languages that do not fall into any of these categories and in some ways cover them all â€“ blurring the line between the above categories while touching each, yet existing in a category that only exists by occlusion â€“ much like <a href="http://www.michaelbach.de/ot/cog_kanizsa/index.html">Kanizsa's Triangle</a>.</p>
+<p>Of course, there are overlaps between these categories for any given Lisp instance, and you may not agree with certain placements or even the categories themselves.  That said, please humor me as I'm trying to establish a basis for an observation that there exist a category of Lisp-like languages that do not fall into any of these categories and in some ways cover them all -- blurring the line between the above categories while touching each, yet existing in a category that only exists by occlusion -- much like <a href="http://www.michaelbach.de/ot/cog_kanizsa/index.html">Kanizsa's Triangle</a>.</p>
 
 <p><img src="http://replove.herokuapp.com/images/lisps.png" alt="Lisps" title="The space between" /></p>
 
@@ -306,7 +306,7 @@ environment.</p>
 
 <h2 id="kernel-lisps">Kernel Lisps</h2>
 
-<p>I struggled to find a way of separating Exo-Lisps and Kernel Lisps and the following distinction arose from this struggle.  Where Exo-Lisps serve as a framework for a specific problem, Kernel Lisps serve as a framework for a more general problem  â€“ language or system development and experimentation.  Some examples of Kernel Lisps include: <a href="https://groups.google.com/forum/#!topic/comp.lang.scheme/MCfPoeir90s">R7RS-small</a>, <a href="http://s48.org">Scheme48</a>, <a href="http://common-lisp.net/project/bknr/static/lmman/frontpage.html">Lisp Machine Lisp</a>, <a href="http://people.bath.ac.uk/masjap/EuLisp/eulisp.html">EuLisp</a>, and <a href="http://www.gnu.org/software/kawa/">Kawa</a>.</p>
+<p>I struggled to find a way of separating Exo-Lisps and Kernel Lisps and the following distinction arose from this struggle.  Where Exo-Lisps serve as a framework for a specific problem, Kernel Lisps serve as a framework for a more general problem  -- language or system development and experimentation.  Some examples of Kernel Lisps include: <a href="https://groups.google.com/forum/#!topic/comp.lang.scheme/MCfPoeir90s">R7RS-small</a>, <a href="http://s48.org">Scheme48</a>, <a href="http://common-lisp.net/project/bknr/static/lmman/frontpage.html">Lisp Machine Lisp</a>, <a href="http://people.bath.ac.uk/masjap/EuLisp/eulisp.html">EuLisp</a>, and <a href="http://www.gnu.org/software/kawa/">Kawa</a>.</p>
 
 <pre class="prettyprint lang-lisp"><code>;; A ZetaLisp locking example
 (unwind-protect
@@ -475,7 +475,7 @@ environment.</p>
 
 <p><a href="http://www.paulgraham.com/arc.html">http://www.paulgraham.com/arc.html</a></p>
 
-<p>I agonized over including Paul Graham's Arc in the category of Fluchtpunkt Lisp, but I think this is the correct place for it.  The driving forces behind Arc are <a href="http://www.paulgraham.com/power.html">succinctness</a> and <a href="http://www.paulgraham.com/hundred.html">centenarianism</a> â€“ both of which are certainly emblematic of the Fluchtpunkt ideal.  Arc hasn't taken off <a href="http://www.arclanguage.org/item?id=8462">as much as non-Paul-Graham humans would have liked</a>, but I believe that the root of the problem is that they prayed for practical, but instead got Fluchtpunkt.</p>
+<p>I agonized over including Paul Graham's Arc in the category of Fluchtpunkt Lisp, but I think this is the correct place for it.  The driving forces behind Arc are <a href="http://www.paulgraham.com/power.html">succinctness</a> and <a href="http://www.paulgraham.com/hundred.html">centenarianism</a> -- both of which are certainly emblematic of the Fluchtpunkt ideal.  Arc hasn't taken off <a href="http://www.arclanguage.org/item?id=8462">as much as non-Paul-Graham humans would have liked</a>, but I believe that the root of the problem is that they prayed for practical, but instead got Fluchtpunkt.</p>
 
 <pre class="prettyprint lang-scm"><code>;; The HackerNews source code for determining an article's rank 
 ;; on the front page, elided
@@ -540,7 +540,7 @@ environment.</p>
   <li><strong>Fun</strong></li>
 </ol>
 
-<p>I've taken a swing at a Fluchtpunkt Lisp or two, but haven't really put my heart into it â€“ and that's a problem because Fluchtpunkt Lisps require heart.</p>
+<p>I've taken a swing at a Fluchtpunkt Lisp or two, but haven't really put my heart into it -- and that's a problem because Fluchtpunkt Lisps require heart.</p>
 
 <h1 id="a-language-that-doesnt-let-you-affect-the-way-it-thinks-is-not-worth-growing">A language that doesn't let you affect the way it thinks is not worth growing</h1>
 
@@ -661,9 +661,9 @@ environment.</p>
 
 <p>The author, <a href="http://landoflisp.com/">Conrad Barski M.D.</a>, takes the reader through a whirlwind tour of Common Lisp and some of the fundamental principles of game development, but interestingly enough it never feels rushed. He accomplishes this feat by sticking to a very important strategy summarized as, â€œproviding something useful at every stageâ€. That is, every example in the book is meant to fit into the context of the larger game examples (e.g. a text adventure, Dice of Doom, etc.) while simultaneously teaching a lesson about Common Lisp <em>and</em> provide utility in isolation. It's really a thing of beauty the way that Mr. Barski manages to build usable games piecemeal while teaching important concepts along the way. To illustrate what I mean, let me give an example.</p>
 
-<p>The Dice of Doom game<sup id="fnref:games"><a href="#fn:games" class="footnote">25</a></sup> example starts with a very small 2x2 board and the program parts needed to represent it. Mr. Barski then builds pieces on top of this substrate to generate positions, while extolling the virtues of decoupling the logic of the game from its representation. It's at this point that the game is playable against a human opponent, but at no previous stage was the code left in a state of flux â€“ each one was fully amenable to tinkering, tweaking, and experimentation. As an added bonus, the whole implementation by this stage was an incredible 13 lines! (that is actually not true, it's more than that, but by using Common Lisp the implementation was incredibly concise) As if this feat was not impressive enough, Mr. Barski then adds game AI into the mix while explaining the famous minimax search algorithm. He then makes the game more efficient using some techniques common in functional programming, including: closures, memoization, tail-calls (with caveats), and lazy programming. As expected the game itself becomes more feature rich as these lessons progress as stronger AI (i.e. better evaluation) is added, more efficient search techniques are introduced (i.e. alpha-beta pruning), and heuristics are used.</p>
+<p>The Dice of Doom game<sup id="fnref:games"><a href="#fn:games" class="footnote">25</a></sup> example starts with a very small 2x2 board and the program parts needed to represent it. Mr. Barski then builds pieces on top of this substrate to generate positions, while extolling the virtues of decoupling the logic of the game from its representation. It's at this point that the game is playable against a human opponent, but at no previous stage was the code left in a state of flux -- each one was fully amenable to tinkering, tweaking, and experimentation. As an added bonus, the whole implementation by this stage was an incredible 13 lines! (that is actually not true, it's more than that, but by using Common Lisp the implementation was incredibly concise) As if this feat was not impressive enough, Mr. Barski then adds game AI into the mix while explaining the famous minimax search algorithm. He then makes the game more efficient using some techniques common in functional programming, including: closures, memoization, tail-calls (with caveats), and lazy programming. As expected the game itself becomes more feature rich as these lessons progress as stronger AI (i.e. better evaluation) is added, more efficient search techniques are introduced (i.e. alpha-beta pruning), and heuristics are used.</p>
 
-<p>All in all, I am very impressed with the quality of Land of Lisp and consider it one of the best Common Lisp book available today. As a <a href="http://www.joyofclojure.com">co-author of a Clojure programming book</a> I appreciate the amount of effort required to pull off a genuinely unique book â€“ I would be happy to achieve a fraction of the quality of Land of Lisp. This book will appeal to the long-time Lisper and the neophyte and I highly recommend buying it today.</p>
+<p>All in all, I am very impressed with the quality of Land of Lisp and consider it one of the best Common Lisp book available today. As a <a href="http://www.joyofclojure.com">co-author of a Clojure programming book</a> I appreciate the amount of effort required to pull off a genuinely unique book -- I would be happy to achieve a fraction of the quality of Land of Lisp. This book will appeal to the long-time Lisper and the neophyte and I highly recommend buying it today.</p>
 
 <h1 id="fun">Fun</h1>
 
@@ -692,7 +692,7 @@ environment.</p>
 
 <p><a href="http://hypercard.org/">http://hypercard.org/</a></p>
 
-<p>An early hypermedia development language and platform that was a revelation for many people who used it.  With a little extra context here and perhaps a little luck there, Hypercard might have served as the basis for the World Wide Web, rather than simply an inspiration.  As it stands, it's commonly believed that the direction of the WWW in contrast to Hypercard's limited viewpoint was its downfall.  However, Stanislav Datskovskiy <sup id="fnref:why-die"><a href="#fn:why-die" class="footnote">26</a></sup> makes a different case altogether â€“ one that you'll more fully understand at the punchline of this segment.</p>
+<p>An early hypermedia development language and platform that was a revelation for many people who used it.  With a little extra context here and perhaps a little luck there, Hypercard might have served as the basis for the World Wide Web, rather than simply an inspiration.  As it stands, it's commonly believed that the direction of the WWW in contrast to Hypercard's limited viewpoint was its downfall.  However, Stanislav Datskovskiy <sup id="fnref:why-die"><a href="#fn:why-die" class="footnote">26</a></sup> makes a different case altogether -- one that you'll more fully understand at the punchline of this segment.</p>
 
 <h3 id="dylan">Dylan</h3>
 
@@ -700,7 +700,7 @@ environment.</p>
 
 <p>Dylan is a Lisp-like object-oriented programming language originally designed as a <a href="http://oldcomputers.net/apple-newton.html">Newton</a> development system.  While Dylan is still actively maintained and used, it's ongoing evolution was divorced from Apple long ago.</p>
 
-<p>These languages were, and are, amazing and important entries in the annals of langdev â€“ so is it any surprise that they found their start at Apple?  Probably not. However, that they've been allow to die and been excised from their roots is sad, but perhaps not too surprising given the direction of Apple products over the past ~10 years.</p>
+<p>These languages were, and are, amazing and important entries in the annals of langdev -- so is it any surprise that they found their start at Apple?  Probably not. However, that they've been allow to die and been excised from their roots is sad, but perhaps not too surprising given the direction of Apple products over the past ~10 years.</p>
 
 <h3 id="wheels-of-a-sort">Wheels of a sort</h3>
 
@@ -802,7 +802,7 @@ com/chameco/Hitman/blob/master/src/hitman/core.clj)</li>
 
 <p>I'd like to thank Xach Beane for the AutoMotivator webapp used to create the Erik Naggum image and Conrad Barski for the â€œAlien technologyâ€ images.  I'd also like to thank Craig Andera and Russ Olsen for reviewing a draft of this issue.  Also, Read-Eval-Print-λove's spirit is inspired by the beautiful works of Kragen Javier Sitaker.  Finally, the cover of this issue was painted by my mother-in-law Kiyomi Okada.</p>
 
-<p>Is there something that you'd like to see in future issues?  Email me at the address below with suggestions.  If you'd like to discuss this issue of Read-Eval-Print-λove then head on over to <a href="http://www.lispforum.com">http://www.lispforum.com</a> or the LL.next mailing list at <a href="https://groups.google.com/forum/#!forum/ll-next">https://groups.google.com/forum/#!forum/ll-next</a> â€“ I'll be there.</p>
+<p>Is there something that you'd like to see in future issues?  Email me at the address below with suggestions.  If you'd like to discuss this issue of Read-Eval-Print-λove then head on over to <a href="http://www.lispforum.com">http://www.lispforum.com</a> or the LL.next mailing list at <a href="https://groups.google.com/forum/#!forum/ll-next">https://groups.google.com/forum/#!forum/ll-next</a> -- I'll be there.</p>
 
 <p>The tentative release date for issue #2 is sometime in late October or early November, 2013.  The theme for issue #2 is â€œOrientation around objects.â€</p>
 
@@ -887,7 +887,7 @@ com/chameco/Hitman/blob/master/src/hitman/core.clj)</li>
       <p>http://www.loper-os.org/?p=568 <a href="#fnref:why-die" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:flet">
-      <p>I understand how packages and the restrictions on the core symbols help here â€“ let me have some fun please. <a href="#fnref:flet" class="reversefootnote">&#8617;</a></p>
+      <p>I understand how packages and the restrictions on the core symbols help here -- let me have some fun please. <a href="#fnref:flet" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
